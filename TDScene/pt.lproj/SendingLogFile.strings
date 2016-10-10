@@ -1,0 +1,9 @@
+
+/* Class = "IBUILabel"; text = "送信が完了するまで\nしばらくお待ち下さい。"; ObjectID = "1wP-Q0-Cv3"; */
+"1wP-Q0-Cv3.text" = "Aguarde a conclusão da transmissão.";
+
+/* Class = "IBUIButton"; normalTitle = "スキップ"; ObjectID = "C3R-5G-S4k"; */
+"C3R-5G-S4k.normalTitle" = "Ignorar";
+
+/* Class = "IBUILabel"; text = "ログファイルを\n送信しています"; ObjectID = "TEb-oa-Iee"; */
+"TEb-oa-Iee.text" = "Enviando arquivo de registro";

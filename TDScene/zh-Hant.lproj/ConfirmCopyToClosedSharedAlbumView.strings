@@ -1,0 +1,12 @@
+
+/* Class = "IBUIButton"; normalTitle = "キャンセル"; ObjectID = "3"; */
+"3.normalTitle" = "取消";
+
+/* Class = "IBUIButton"; normalTitle = "OK"; ObjectID = "7"; */
+"7.normalTitle" = "確定";
+
+/* Class = "IBUILabel"; text = "このアルバムに追加した写真は、\r次の参加者に共有されます。"; ObjectID = "14"; */
+"14.text" = "下列成員可以看到新增至此相簿的照片";
+
+/* Class = "IBUILabel"; text = "撮影場所情報も共有する"; ObjectID = "23"; */
+"23.text" = "分享照片位置";

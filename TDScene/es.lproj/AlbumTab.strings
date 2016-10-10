@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "アルバムを共有"; ObjectID = "1gZ-rJ-5uA"; */
+"1gZ-rJ-5uA.normalTitle" = "Compartir álbum";
+
+/* Class = "UIButton"; normalTitle = "写真を追加"; ObjectID = "Uyz-9R-qMM"; */
+"Uyz-9R-qMM.normalTitle" = "Añadir fotos";
+
+/* Class = "UIButton"; normalTitle = "印刷"; ObjectID = "Y1R-aW-JB8"; */
+"Y1R-aW-JB8.normalTitle" = "Imprimir";
+
+/* Class = "UISegmentedControl"; hFW-i6-KWc.segmentTitles[0] = "写真"; ObjectID = "hFW-i6-KWc"; */
+"hFW-i6-KWc.segmentTitles[0]" = "Fotos";
+
+/* Class = "UISegmentedControl"; hFW-i6-KWc.segmentTitles[1] = "コメント"; ObjectID = "hFW-i6-KWc"; */
+"hFW-i6-KWc.segmentTitles[1]" = "Comentarios";

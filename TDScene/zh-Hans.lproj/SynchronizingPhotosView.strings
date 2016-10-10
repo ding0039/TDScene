@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "写真の枚数が多い場合は、端末を電源に接続して\nこの画面を表示したままお待ちください。"; ObjectID = "Tjo-aK-V20"; */
+"Tjo-aK-V20.text" = "同步大量照片时，请连接设备电源，不要退出此界面。";
+
+/* Class = "IBUILabel"; text = "1500 / 1644 （あと1分23秒）"; ObjectID = "aDW-ki-LEq"; */
+"aDW-ki-LEq.text" = "1500 / 1644（剩余 1 分 23 秒）";
+
+/* Class = "IBUILabel"; text = "1,600枚の同期が完了しました。"; ObjectID = "gO3-0z-VCT"; */
+"gO3-0z-VCT.text" = "同步完成。照片数：1,600";
+
+/* Class = "IBUIButton"; normalTitle = "閉じる"; ObjectID = "se3-8E-LC3"; */
+"se3-8E-LC3.normalTitle" = "关闭";
+
+/* Class = "IBUILabel"; text = "同期中はWifiへの接続をおすすめします。"; ObjectID = "zeV-p7-Ejo"; */
+"zeV-p7-Ejo.text" = "同步时建议使用无线网络连接。";

@@ -1,0 +1,6 @@
+
+/* Class = "IBUIBarButtonItem"; title = "フレンド登録"; ObjectID = "87h-c6-vuQ"; */
+"87h-c6-vuQ.title" = "Añadir amigo";
+
+/* Class = "IBUILabel"; text = "相手先が見つかりました。\nこのお相手で間違いなければ\n「フレンド登録」をタップしてください。\n"; ObjectID = "iFN-73-grj"; */
+"iFN-73-grj.text" = "¡Hemos encontrado a tu amigo!\nSi es la persona correcta, toca el botón Añadir amigo.\n";

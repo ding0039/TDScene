@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0qI-F0-d6L">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="YrC-1w-B9u">
+            <objects>
+                <tabBarController useStoryboardIdentifierAsRestorationIdentifier="YES" id="0qI-F0-d6L" customClass="TDTabBarController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="eDs-OW-dBT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="exf-ns-ozU" kind="relationship" relationship="viewControllers" id="qMj-qK-UYZ"/>
+                        <segue destination="HVT-8l-24n" kind="relationship" relationship="viewControllers" id="p4u-pL-JSg"/>
+                        <segue destination="Api-Id-COw" kind="relationship" relationship="viewControllers" id="5hr-NB-pHh"/>
+                        <segue destination="NoM-K7-ysg" kind="relationship" relationship="viewControllers" id="ItB-gM-IhD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="po1-rt-LEh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1514" y="2145"/>
+        </scene>
+        <!--Album-->
+        <scene sceneID="6Hy-bW-53A">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Album" id="exf-ns-ozU" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="相册" image="tab_albums" selectedImage="tab_albums_selected" id="JWE-jS-Uhf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M8u-2u-Tl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-818" y="1858"/>
+        </scene>
+        <!--Photo-->
+        <scene sceneID="p6Y-Ep-XD1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Photo" id="HVT-8l-24n" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="相册" image="tab_photos" selectedImage="tab_photos_selected" id="zbb-t7-4cS"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MON-9K-qED" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-819" y="1996"/>
+        </scene>
+        <!--Friend-->
+        <scene sceneID="Mcv-0y-Oou">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Friend" id="Api-Id-COw" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="好友" image="tab_friends" selectedImage="tab_friends_selected" id="CAO-ls-PmG"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K6P-b5-2M9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-818" y="2242"/>
+        </scene>
+        <!--More-->
+        <scene sceneID="un5-na-3OI">
+            <objects>
+                <viewControllerPlaceholder storyboardName="More" id="NoM-K7-ysg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="更多" image="tab_other" selectedImage="tab_other_selected" id="OYY-nH-ukO"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="djB-gH-671" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-818" y="2377"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tab_albums" width="30" height="30"/>
+        <image name="tab_albums_selected" width="30" height="30"/>
+        <image name="tab_friends" width="30" height="30"/>
+        <image name="tab_friends_selected" width="30" height="30"/>
+        <image name="tab_other" width="30" height="30"/>
+        <image name="tab_other_selected" width="30" height="30"/>
+        <image name="tab_photos" width="30" height="30"/>
+        <image name="tab_photos_selected" width="30" height="30"/>
+    </resources>
+</document>

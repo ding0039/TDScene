@@ -1,0 +1,15 @@
+
+/* Class = "IBUITextView"; text = "aaaabbbccc"; ObjectID = "0eY-nN-cSt"; */
+"0eY-nN-cSt.text" = "aaaabbbccc";
+
+/* Class = "IBUIButton"; normalTitle = "以前のコメントを見る…"; ObjectID = "68U-9b-5gV"; */
+"68U-9b-5gV.normalTitle" = "以前のコメントを見る…";
+
+/* Class = "IBUILabel"; text = "Yuichi Yabu"; ObjectID = "jnz-R5-AJI"; */
+"jnz-R5-AJI.text" = "Yuichi Yabu";
+
+/* Class = "IBUIButton"; normalTitle = "コメントする…"; ObjectID = "sve-pl-4p4"; */
+"sve-pl-4p4.normalTitle" = "コメントする…";
+
+/* Class = "IBUILabel"; text = "05/02 19:42 PM"; ObjectID = "wDQ-CS-obm"; */
+"wDQ-CS-obm.text" = "05/02 19:42 PM";

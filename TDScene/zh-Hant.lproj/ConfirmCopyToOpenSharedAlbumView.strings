@@ -1,0 +1,12 @@
+
+/* Class = "IBUILabel"; text = "撮影場所情報も公開する"; ObjectID = "akR-K3-cLR"; */
+"akR-K3-cLR.text" = "分享照片位置";
+
+/* Class = "IBUILabel"; text = "このアルバムに追加した写真は、ウェブで公開されます。\n"; ObjectID = "t5p-D1-BdH"; */
+"t5p-D1-BdH.text" = "新增至此相簿的照片將公開可見";
+
+/* Class = "IBUIButton"; normalTitle = "OK"; ObjectID = "u85-TU-XYx"; */
+"u85-TU-XYx.normalTitle" = "確定";
+
+/* Class = "IBUIButton"; normalTitle = "キャンセル"; ObjectID = "zxp-hl-87s"; */
+"zxp-hl-87s.normalTitle" = "取消";

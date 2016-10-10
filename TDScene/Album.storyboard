@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AMf-J0-pbC">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--相册-->
+        <scene sceneID="QMQ-MW-h15">
+            <objects>
+                <viewController storyboardIdentifier="AlbumController" automaticallyAdjustsScrollViewInsets="NO" id="7cQ-8I-1WM" customClass="AlbumController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kXN-Fd-XzS"/>
+                        <viewControllerLayoutGuide type="bottom" id="xYq-lZ-VFR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9td-mF-9Nf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Jx2-6X-vkQ">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="bLM-5X-3Os">
+                                    <size key="itemSize" width="153" height="192"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlbumCell" id="Fm0-cB-tXK" customClass="TDAlbumCollectionViewCell">
+                                        <rect key="frame" x="0.0" y="0.0" width="153" height="192"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="153" height="192"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_copy" translatesAutoresizingMaskIntoConstraints="NO" id="Fsv-Aa-KIM">
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Fsv-Aa-KIM" secondAttribute="height" multiplier="1:1" id="8t0-un-kgH"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqv-YS-UbU">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstAttribute="trailingMargin" secondItem="nqv-YS-UbU" secondAttribute="trailing" id="0tE-oV-Cn2"/>
+                                            <constraint firstAttribute="trailingMargin" secondItem="Fsv-Aa-KIM" secondAttribute="trailing" id="E1Y-3F-S8K"/>
+                                            <constraint firstAttribute="bottomMargin" secondItem="nqv-YS-UbU" secondAttribute="bottom" constant="4" id="IA1-KT-Oqa"/>
+                                            <constraint firstItem="nqv-YS-UbU" firstAttribute="top" secondItem="Fsv-Aa-KIM" secondAttribute="bottom" constant="4" id="RLE-jk-6QY"/>
+                                            <constraint firstItem="Fsv-Aa-KIM" firstAttribute="leading" secondItem="Fm0-cB-tXK" secondAttribute="leadingMargin" id="Vew-YU-G6a"/>
+                                            <constraint firstItem="nqv-YS-UbU" firstAttribute="leading" secondItem="Fm0-cB-tXK" secondAttribute="leadingMargin" id="Wbo-4b-mrL"/>
+                                            <constraint firstItem="Fsv-Aa-KIM" firstAttribute="top" secondItem="Fm0-cB-tXK" secondAttribute="topMargin" id="zGn-gr-zrP"/>
+                                        </constraints>
+                                        <connections>
+                                            <outlet property="cover" destination="Fsv-Aa-KIM" id="TBw-EE-8GG"/>
+                                            <outlet property="name" destination="nqv-YS-UbU" id="OA8-0X-qDv"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Jx2-6X-vkQ" secondAttribute="trailing" id="F4a-b6-Sqs"/>
+                            <constraint firstItem="Jx2-6X-vkQ" firstAttribute="leading" secondItem="9td-mF-9Nf" secondAttribute="leading" id="HI1-Cn-EgT"/>
+                            <constraint firstItem="xYq-lZ-VFR" firstAttribute="top" secondItem="Jx2-6X-vkQ" secondAttribute="bottom" id="P7V-GH-jpT"/>
+                            <constraint firstItem="Jx2-6X-vkQ" firstAttribute="top" secondItem="kXN-Fd-XzS" secondAttribute="bottom" id="yrC-Yd-UFD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="相册" id="grk-zh-2JP">
+                        <leftBarButtonItems>
+                            <barButtonItem image="nav_add_album" id="UM2-qh-Byt">
+                                <connections>
+                                    <action selector="addAlbum:" destination="7cQ-8I-1WM" id="g30-GG-TPd"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="nav_search_album" id="qUn-4A-dMi"/>
+                        </leftBarButtonItems>
+                        <rightBarButtonItems>
+                            <barButtonItem image="nav_menu" id="x5h-Lq-yM6">
+                                <connections>
+                                    <action selector="menu:" destination="7cQ-8I-1WM" id="nmz-ax-2Pi"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="nav_notification" id="5B2-Q7-bWD">
+                                <connections>
+                                    <action selector="notify:" destination="7cQ-8I-1WM" id="aEP-8P-Sru"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="collectionView" destination="Jx2-6X-vkQ" id="2de-bL-D40"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZDu-L7-aAd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1128.8" y="-651.72413793103453"/>
+        </scene>
+        <!--相册-->
+        <scene sceneID="ws8-kn-Qp6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AMf-J0-pbC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="相册" image="tab_albums" selectedImage="tab_albums_selected" id="Ra8-Qa-MHp"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="13S-ja-cvo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="7cQ-8I-1WM" kind="relationship" relationship="rootViewController" id="EYP-Pr-5jk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Pq-Fj-nEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="295" y="-652"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu_copy" width="29" height="29"/>
+        <image name="nav_add_album" width="21" height="21"/>
+        <image name="nav_menu" width="22" height="22"/>
+        <image name="nav_notification" width="21" height="21"/>
+        <image name="nav_search_album" width="21" height="21"/>
+        <image name="tab_albums" width="30" height="30"/>
+        <image name="tab_albums_selected" width="30" height="30"/>
+    </resources>
+</document>

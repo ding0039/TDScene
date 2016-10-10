@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "ご利用ありがとうございます"; ObjectID = "31"; */
+"31.text" = "Thank you for using Scene!";
+
+/* Class = "IBUILabel"; text = "このアプリが気に入ったら、\nぜひAppStoreで評価をお願いします。\n"; ObjectID = "38"; */
+"38.text" = "If you like this app, please rate it in the App Store.\n";
+
+/* Class = "IBUIButton"; normalTitle = "後で"; ObjectID = "48"; */
+"48.normalTitle" = "Maybe Later";
+
+/* Class = "IBUIButton"; normalTitle = "評価しない"; ObjectID = "60"; */
+"60.normalTitle" = "No Thanks";
+
+/* Class = "IBUIButton"; normalTitle = "評価する"; ObjectID = "71"; */
+"71.normalTitle" = "Rate Now";

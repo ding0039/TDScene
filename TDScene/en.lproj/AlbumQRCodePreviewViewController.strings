@@ -1,0 +1,6 @@
+
+/* Class = "IBUILabel"; text = "SceneのQRリーダーでスキャンするとアルバムが開きます。"; ObjectID = "MV4-ae-baz"; */
+"MV4-ae-baz.text" = "Scan with Scene’s QR reader to open the album.";
+
+/* Class = "IBUIButton"; normalTitle = "QRリーダーのヘルプ"; ObjectID = "N32-dB-tD6"; */
+"N32-dB-tD6.normalTitle" = "QR Reader Help";

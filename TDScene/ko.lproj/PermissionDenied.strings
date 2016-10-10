@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "写真の読み込みができません"; ObjectID = "8ti-24-OB3"; */
+"8ti-24-OB3.text" = "사진을 로드할 수 없음";
+
+/* Class = "UILabel"; text = "ホームボタンを押してiPhoneのホームに戻り\n「設定」アプリを開いて\n「プライバシー」→「写真」の中で\n「Scene」をオンにしてください。\n"; ObjectID = "GaV-pY-dlz"; */
+"GaV-pY-dlz.text" = "홈 버튼을 누르고 iPhone의 \"설정\" 앱을 여십시오. \"개인 정보 보호\" > \"사진\" 아래에서 \"Scene\" 항목을 켜십시오.";
+
+/* Class = "UIButton"; normalTitle = "設定を開く"; ObjectID = "hcs-Kt-Tga"; */
+"hcs-Kt-Tga.normalTitle" = "설정 열기";
+
+/* Class = "UILabel"; text = "設定から「Scene」の写真へのアクセスを許可してください。"; ObjectID = "qSO-2N-Ig6"; */
+"qSO-2N-Ig6.text" = "사진에 Scene 접근을 허용하십시오.";

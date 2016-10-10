@@ -1,0 +1,9 @@
+
+/* Class = "IBUISegmentedControl"; 9zv-xh-htL.segmentTitles[0] = "すべて"; ObjectID = "9zv-xh-htL"; */
+"9zv-xh-htL.segmentTitles[0]" = "All";
+
+/* Class = "IBUISegmentedControl"; 9zv-xh-htL.segmentTitles[1] = "お知らせ"; ObjectID = "9zv-xh-htL"; */
+"9zv-xh-htL.segmentTitles[1]" = "News";
+
+/* Class = "IBUINavigationItem"; title = "お知らせ"; ObjectID = "IJX-Kx-IVx"; */
+"IJX-Kx-IVx.title" = "Notification";

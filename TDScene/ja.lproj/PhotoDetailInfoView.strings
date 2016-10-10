@@ -1,0 +1,12 @@
+
+/* Class = "IBUISegmentedControl"; 5HB-G4-SMi.segmentTitles[0] = "写真情報"; ObjectID = "5HB-G4-SMi"; */
+"5HB-G4-SMi.segmentTitles[0]" = "写真情報";
+
+/* Class = "IBUISegmentedControl"; 5HB-G4-SMi.segmentTitles[1] = "撮影地"; ObjectID = "5HB-G4-SMi"; */
+"5HB-G4-SMi.segmentTitles[1]" = "撮影地";
+
+/* Class = "IBUISegmentedControl"; 5HB-G4-SMi.segmentTitles[2] = "アルバム"; ObjectID = "5HB-G4-SMi"; */
+"5HB-G4-SMi.segmentTitles[2]" = "アルバム";
+
+/* Class = "IBUISegmentedControl"; 5HB-G4-SMi.segmentTitles[3] = "保存先"; ObjectID = "5HB-G4-SMi"; */
+"5HB-G4-SMi.segmentTitles[3]" = "保存先";

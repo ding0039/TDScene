@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = " "; ObjectID = "DSh-z9-p5X"; */
+"DSh-z9-p5X.text" = " ";
+
+/* Class = "UILabel"; text = " "; ObjectID = "EKZ-Lg-NWp"; */
+"EKZ-Lg-NWp.text" = " ";
+
+/* Class = "UISegmentedControl"; ME0-6g-CTI.segmentTitles[0] = "前へ"; ObjectID = "ME0-6g-CTI"; */
+"ME0-6g-CTI.segmentTitles[0]" = "返回";
+
+/* Class = "UISegmentedControl"; ME0-6g-CTI.segmentTitles[1] = "次へ"; ObjectID = "ME0-6g-CTI"; */
+"ME0-6g-CTI.segmentTitles[1]" = "下一步";
+
+/* Class = "UITextField"; placeholder = "メールアドレス"; ObjectID = "Q8l-tD-ufe"; */
+"Q8l-tD-ufe.placeholder" = "电邮地址";
+
+/* Class = "UILabel"; text = "ニュースレターを受け取る"; ObjectID = "aBd-mk-7hW"; */
+"aBd-mk-7hW.text" = "收取新闻通知";
+
+/* Class = "UIButton"; normalTitle = "利用規約"; ObjectID = "ag8-Fc-dL4"; */
+"ag8-Fc-dL4.normalTitle" = "使用条款";
+
+/* Class = "UITextField"; placeholder = "パスワード"; ObjectID = "cp3-ra-dYo"; */
+"cp3-ra-dYo.placeholder" = "密码";
+
+/* Class = "UIButton"; normalTitle = "プライバシーポリシー"; ObjectID = "dmG-Yz-Y2g"; */
+"dmG-Yz-Y2g.normalTitle" = "隐私政策";
+
+/* Class = "UILabel"; text = "性別"; ObjectID = "fus-Xr-EBl"; */
+"fus-Xr-EBl.text" = "性别";
+
+/* Class = "UILabel"; text = "生年月日"; ObjectID = "g9W-dA-kfF"; */
+"g9W-dA-kfF.text" = "出生日期";
+
+/* Class = "UINavigationItem"; title = "新規登録"; ObjectID = "n3m-bQ-o99"; */
+"n3m-bQ-o99.title" = "新账号";

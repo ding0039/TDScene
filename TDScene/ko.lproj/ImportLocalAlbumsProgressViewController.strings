@@ -1,0 +1,9 @@
+
+/* Class = "IBUILabel"; text = "「アルバム名６７８９０１２３４５６７８９０１２３４５６７８９０１２」を取り込んでいます。"; ObjectID = "7Hs-Ph-JQp"; */
+"7Hs-Ph-JQp.text" = "\"앨범 이름 678901234567890123456789012\" 앨범 가져오는 중";
+
+/* Class = "IBUILabel"; text = "アルバムの取り込み中"; ObjectID = "Xrz-gR-Kpw"; */
+"Xrz-gR-Kpw.text" = "앨범 가져오는 중";
+
+/* Class = "IBUIButton"; normalTitle = "キャンセル"; ObjectID = "xfM-gN-PCR"; */
+"xfM-gN-PCR.normalTitle" = "취소";

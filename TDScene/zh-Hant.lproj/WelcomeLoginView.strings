@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "はじめる"; ObjectID = "9qx-m0-cF4"; */
+"9qx-m0-cF4.normalTitle" = "開始使用";
+
+/* Class = "UILabel"; text = "ようこそScene＜シーン＞へ"; ObjectID = "DmG-KK-sEf"; */
+"DmG-KK-sEf.text" = "歡迎使用 Scene";
+
+/* Class = "UIButton"; normalTitle = "アカウントをお持ちの方は ログイン"; ObjectID = "ESu-tO-2JF"; */
+"ESu-tO-2JF.normalTitle" = "已經擁有帳號？立即登入";
+
+/* Class = "UIButton"; normalTitle = "利用規約"; ObjectID = "Q4N-lg-9PP"; */
+"Q4N-lg-9PP.normalTitle" = "使用條款";
+
+/* Class = "UITextField"; placeholder = "ニックネームを入力"; ObjectID = "oZI-G2-dQZ"; */
+"oZI-G2-dQZ.placeholder" = "輸入暱稱";

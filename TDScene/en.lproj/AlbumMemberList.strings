@@ -1,0 +1,69 @@
+
+/* Class = "IBUILabel"; text = "2013.07.18"; ObjectID = "26i-rO-3Tt"; */
+"26i-rO-3Tt.text" = "2013.07.18";
+
+/* Class = "IBUILabel"; text = "なし"; ObjectID = "5SO-Pf-c19"; */
+"5SO-Pf-c19.text" = "None";
+
+/* Class = "IBUILabel"; text = "写真の追加と削除"; ObjectID = "5wT-xJ-KRd"; */
+"5wT-xJ-KRd.text" = "Add/Remove Photos";
+
+/* Class = "IBUILabel"; text = "アルバム名"; ObjectID = "8wp-Ok-ls7"; */
+"8wp-Ok-ls7.text" = "Album Name";
+
+/* Class = "IBUIButton"; normalTitle = "参加者リストからはずす"; ObjectID = "EiY-nv-Hxc"; */
+"EiY-nv-Hxc.normalTitle" = "Remove from Album";
+
+/* Class = "IBUILabel"; text = "投稿者"; ObjectID = "Qrs-n8-8DS"; */
+"Qrs-n8-8DS.text" = "Owner";
+
+/* Class = "IBUILabel"; text = "フレンドリスト登録済"; ObjectID = "SDt-5R-BfJ"; */
+"SDt-5R-BfJ.text" = "On Friends List";
+
+/* Class = "IBUILabel"; text = "写真の編集"; ObjectID = "TGc-nn-vU8"; */
+"TGc-nn-vU8.text" = "Edit Photos";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "VJP-Ii-uLR"; */
+"VJP-Ii-uLR.text" = "Label";
+
+/* Class = "IBUILabel"; text = "参加者の追加と削除"; ObjectID = "a36-Og-XMl"; */
+"a36-Og-XMl.text" = "Add/Remove People";
+
+/* Class = "IBUIButton"; normalTitle = "送信"; ObjectID = "cZ7-b5-W78"; */
+"cZ7-b5-W78.normalTitle" = "Send";
+
+/* Class = "IBUITableViewSection"; headerTitle = "詳細設定"; ObjectID = "ePT-5j-LLw"; */
+"ePT-5j-LLw.headerTitle" = "Advanced";
+
+/* Class = "IBUILabel"; text = "撮影場所の共有"; ObjectID = "eWq-AR-axK"; */
+"eWq-AR-axK.text" = "Share Photo Locations";
+
+/* Class = "IBUIButton"; normalTitle = "参加者を追加"; ObjectID = "i1J-XC-x7H"; */
+"i1J-XC-x7H.normalTitle" = "Invite People";
+
+/* Class = "IBUILabel"; text = "合言葉"; ObjectID = "iHl-cg-89v"; */
+"iHl-cg-89v.text" = "Password";
+
+/* Class = "IBUILabel"; text = "誰でも"; ObjectID = "j7Y-Un-lT2"; */
+"j7Y-Un-lT2.text" = "Anyone";
+
+/* Class = "IBUILabel"; text = "カバー写真"; ObjectID = "lig-pj-EjK"; */
+"lig-pj-EjK.text" = "Cover Photo";
+
+/* Class = "IBUIButton"; normalTitle = "フレンドに追加する"; ObjectID = "n9r-vL-NAw"; */
+"n9r-vL-NAw.normalTitle" = "Add as Friend";
+
+/* Class = "IBUIButton"; normalTitle = "無視リストに追加"; ObjectID = "ty4-5J-rMP"; */
+"ty4-5J-rMP.normalTitle" = "Add to Ignore List";
+
+/* Class = "IBUILabel"; text = "誰でも"; ObjectID = "uDg-nS-f5q"; */
+"uDg-nS-f5q.text" = "Anyone";
+
+/* Class = "IBUITableViewSection"; footerTitle = " \n \n"; ObjectID = "vkr-kw-DKR"; */
+"vkr-kw-DKR.footerTitle" = " \n \n";
+
+/* Class = "IBUITableViewSection"; headerTitle = "位置情報"; ObjectID = "vkr-kw-DKR"; */
+"vkr-kw-DKR.headerTitle" = "Location";
+
+/* Class = "IBUITableViewSection"; footerTitle = "合言葉を設定すると、合言葉を知っている人だけがアルバムのURLを開けます。"; ObjectID = "xke-xr-xXH"; */
+"xke-xr-xXH.footerTitle" = "If set, only people who know the password will be able to open the album link.";

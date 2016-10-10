@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "最新バージョン"; ObjectID = "25d-do-r4v"; */
+"25d-do-r4v.text" = "Versión más reciente";
+
+/* Class = "UILabel"; text = "アルバム同期"; ObjectID = "3WV-fo-Oir"; */
+"3WV-fo-Oir.text" = "Sincronización de álbumes";
+
+/* Class = "UILabel"; text = "無視しているユーザはいません"; ObjectID = "Cqi-Fl-oIR"; */
+"Cqi-Fl-oIR.text" = "No hay personas ignoradas";
+
+/* Class = "UILabel"; text = "既存アカウントでログイン"; ObjectID = "DZD-zv-IAN"; */
+"DZD-zv-IAN.text" = "Acceder con cuenta existente";
+
+/* Class = "UILabel"; text = "リセット"; ObjectID = "Etb-1V-BtN"; */
+"Etb-1V-BtN.text" = "Restablecer";
+
+/* Class = "UILabel"; text = "10%完了（ダミー）"; ObjectID = "HFD-sd-r68"; */
+"HFD-sd-r68.text" = "10% completado (ficticio)";
+
+/* Class = "UILabel"; text = "本ソフトウェアには特許第4717963号をはじめ\n登録済みおよび出願中の特許技術が使用されています\n\nCopyright © 2013-2015 Ripplex Inc. All Rights Reserved."; ObjectID = "PJh-Vz-QRZ"; */
+"PJh-Vz-QRZ.text" = "Este programa emplea tecnologías protegidas por patentes registradas y pendientes, entre las que se incluye la número 4717963.\n\nCopyright © 2013-2015 Ripplex Inc. Todos los derechos reservados.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "TwF-sR-XcC"; */
+"TwF-sR-XcC.text" = "Título";
+
+/* Class = "UILabel"; text = "新規アカウント登録"; ObjectID = "UyA-Cn-vln"; */
+"UyA-Cn-vln.text" = "Registrar una cuenta nueva";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "WPX-ia-ZzA"; */
+"WPX-ia-ZzA.text" = "Detalle";
+
+/* Class = "UILabel"; text = " "; ObjectID = "hs9-hR-5uD"; */
+"hs9-hR-5uD.text" = " ";
+
+/* Class = "UILabel"; text = "登録情報の確認・変更"; ObjectID = "kJC-7S-VGh"; */
+"kJC-7S-VGh.text" = "Gestionar Mi información";
+
+/* Class = "UILabel"; text = "無視リスト"; ObjectID = "pCC-KN-2ce"; */
+"pCC-KN-2ce.text" = "Lista de ignorados";
+
+/* Class = "UILabel"; text = "Version: 1.001 Beta"; ObjectID = "uiz-mO-vUW"; */
+"uiz-mO-vUW.text" = "Versión: 1.001 Beta";
+
+/* Class = "UILabel"; text = "使用状況"; ObjectID = "wAf-9R-Qsr"; */
+"wAf-9R-Qsr.text" = "Uso";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "zrV-V7-Wt7"; */
+"zrV-V7-Wt7.text" = "Título";

@@ -1,0 +1,9 @@
+
+/* Class = "IBUIBarButtonItem"; title = "保存"; ObjectID = "F6x-ux-l6Z"; */
+"F6x-ux-l6Z.title" = "保存";
+
+/* Class = "IBUIBarButtonItem"; title = "キャンセル"; ObjectID = "ew4-Zg-h5E"; */
+"ew4-Zg-h5E.title" = "キャンセル";
+
+/* Class = "IBUINavigationItem"; title = "写真を編集"; ObjectID = "ofB-Ju-jHN"; */
+"ofB-Ju-jHN.title" = "写真を編集";

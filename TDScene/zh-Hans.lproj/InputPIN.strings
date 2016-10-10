@@ -1,0 +1,33 @@
+
+/* Class = "IBUILabel"; text = "こちらに確認メールをお送りしました。\nメールに記載された4桁の確認番号を\n入力してください。"; ObjectID = "5dk-tH-mNQ"; */
+"5dk-tH-mNQ.text" = "已向该地址发送确认电邮，请在下方输入电邮中的 4 位数字。";
+
+/* Class = "IBUITextField"; text = "0000"; ObjectID = "7Fg-lg-2AC"; */
+"7Fg-lg-2AC.text" = "0000";
+
+/* Class = "IBUILabel"; text = "dummy@dummy.com"; ObjectID = "7tQ-Td-aCI"; */
+"7tQ-Td-aCI.text" = "dummy@dummy.com";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "CRt-bU-lMD"; */
+"CRt-bU-lMD.text" = "0";
+
+/* Class = "IBUILabel"; text = "・確認メールの到着まで数分かかる場合があります。\n\n・確認メールが届かないときは、迷惑メールフォルダに\n　振り分けられていないか確認してください。\n\n・携帯メアドの場合はドメインフィルタでscn.jpからの\n　メールを「受信する」設定にしてください。"; ObjectID = "CuM-Ln-FhZ"; */
+"CuM-Ln-FhZ.text" = "・可能要几分钟后才能收到确认电邮。\n\n・请查看您的垃圾邮件，以防电邮被归类为垃圾邮件。\n\n・请确认您可以收取来自“scn.jp”域名的电邮。";
+
+/* Class = "IBUINavigationItem"; title = "確認番号の入力"; ObjectID = "H8G-mm-zXr"; */
+"H8G-mm-zXr.title" = "输入确认码";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "Ns8-Wl-e0b"; */
+"Ns8-Wl-e0b.text" = "0";
+
+/* Class = "IBUIButton"; normalTitle = "次へ"; ObjectID = "Suc-dP-7Xa"; */
+"Suc-dP-7Xa.normalTitle" = "下一步";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "UdJ-Lf-PNn"; */
+"UdJ-Lf-PNn.text" = "0";
+
+/* Class = "IBUIViewController"; title = "確認番号の入力"; ObjectID = "YlZ-8X-JHM"; */
+"YlZ-8X-JHM.title" = "输入确认码";
+
+/* Class = "IBUILabel"; text = "0"; ObjectID = "dse-vF-GAR"; */
+"dse-vF-GAR.text" = "0";

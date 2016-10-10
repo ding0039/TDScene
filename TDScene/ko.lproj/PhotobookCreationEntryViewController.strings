@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "表紙の写真を選択"; ObjectID = "0Yv-ap-Te4"; */
+"0Yv-ap-Te4.text" = "표지 사진 선택";
+
+/* Class = "UILabel"; text = "写真を選択"; ObjectID = "DQD-OD-psP"; */
+"DQD-OD-psP.text" = "사진 선택";
+
+/* Class = "UILabel"; text = "タイトル"; ObjectID = "IgK-ht-duG"; */
+"IgK-ht-duG.text" = "제목";
+
+/* Class = "UILabel"; text = "16"; ObjectID = "P2O-yz-Vxp"; */
+"P2O-yz-Vxp.text" = "16";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "YC6-w1-sa3"; */
+"YC6-w1-sa3.text" = "세부사항";
+
+/* Class = "UIButton"; normalTitle = "ページ数の種類と価格はこちら"; ObjectID = "cnK-gb-plL"; */
+"cnK-gb-plL.normalTitle" = "페이지 수의 종류와 가격은 여기";
+
+/* Class = "UILabel"; text = "表紙に印刷するタイトルと写真、ページ数を決めてください。タイトルと表紙の写真はあとで変更できます。"; ObjectID = "fD8-wy-TB8"; */
+"fD8-wy-TB8.text" = "표지에 인쇄할 타이틀과 사진, 페이지 수를 정해주십시오. 타이틀과 표지의 사진은 나중에 변경 가능합니다.";
+
+/* Class = "UILabel"; text = "ページ数"; ObjectID = "pjR-0u-lGC"; */
+"pjR-0u-lGC.text" = "페이지";
+
+/* Class = "UILabel"; text = "⚠️この写真は印刷の解像度が低くなります。横向きの写真を選ぶと改善する場合があります。"; ObjectID = "rxx-KP-HhZ"; */
+"rxx-KP-HhZ.text" = "⚠️ 이 사진의 해상도는 낮습니다. 최상의 결과를 위해 와이드 사진을 사용하십시오.";

@@ -1,0 +1,15 @@
+
+/* Class = "IBUILabel"; text = "家族や友達に共有"; ObjectID = "Akd-T6-uL7"; */
+"Akd-T6-uL7.text" = "和亲朋好友共享";
+
+/* Class = "IBUILabel"; text = "ウェブで公開"; ObjectID = "IkV-2f-ZAl"; */
+"IkV-2f-ZAl.text" = "网页共享";
+
+/* Class = "IBUILabel"; text = "アルバムを家族や友達に共有します。フレンド、SMS、メールやLINEなどにアルバムを送れます。"; ObjectID = "bT5-zm-uBL"; */
+"bT5-zm-uBL.text" = "和亲朋好友共享。在 Scene 中向好友发送相册，也可以电邮、短信等方式发送。";
+
+/* Class = "IBUILabel"; text = "アルバムをウェブで公開します。ブログやTwitter、Facebook、Google+などに投稿できます。"; ObjectID = "jFF-Rj-9PE"; */
+"jFF-Rj-9PE.text" = "网页公开共享。发布到博客、主页或社交网络等平台。";
+
+/* Class = "IBUIButton"; normalTitle = "キャンセル"; ObjectID = "qFV-zN-WED"; */
+"qFV-zN-WED.normalTitle" = "取消";

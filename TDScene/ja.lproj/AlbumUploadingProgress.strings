@@ -1,0 +1,9 @@
+
+/* Class = "IBUILabel"; text = "残り　枚"; ObjectID = "2aD-fr-oLQ"; */
+"2aD-fr-oLQ.text" = "残り　枚";
+
+/* Class = "IBUILabel"; text = "オフラインのため\n写真の送信を一時停止しています。\n\nインターネット接続を\n確認して下さい。"; ObjectID = "eCU-A0-v6i"; */
+"eCU-A0-v6i.text" = "オフラインのため\n写真の送信を一時停止しています。\n\nインターネット接続を\n確認して下さい。";
+
+/* Class = "IBUILabel"; text = "送信中"; ObjectID = "oaI-oe-pJH"; */
+"oaI-oe-pJH.text" = "送信中";

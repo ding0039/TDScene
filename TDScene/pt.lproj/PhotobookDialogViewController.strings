@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "アルバムの写真を使って、フォトブックを印刷できます。"; ObjectID = "KWa-IQ-DlI"; */
+"KWa-IQ-DlI.text" = "Encomende um livro impresso das fotos de seus álbuns.";
+
+/* Class = "UIButton"; normalTitle = "キャンセル"; ObjectID = "WyW-fx-R3U"; */
+"WyW-fx-R3U.normalTitle" = "Cancelar";
+
+/* Class = "UILabel"; text = "フォトブック印刷"; ObjectID = "hcT-Bz-NC9"; */
+"hcT-Bz-NC9.text" = "Livro de fotos do Scene";
+
+/* Class = "UIButton"; normalTitle = "フォトブックを作成"; ObjectID = "tcO-y6-6Eo"; */
+"tcO-y6-6Eo.normalTitle" = "Criar livro de fotos";

@@ -1,0 +1,9 @@
+
+/* Class = "IBUILabel"; text = "残り　枚"; ObjectID = "2aD-fr-oLQ"; */
+"2aD-fr-oLQ.text" = "남음";
+
+/* Class = "IBUILabel"; text = "オフラインのため\n写真の送信を一時停止しています。\n\nインターネット接続を\n確認して下さい。"; ObjectID = "eCU-A0-v6i"; */
+"eCU-A0-v6i.text" = "현재 오프라인입니다. 사진 전송을 잠시 중단합니다.\n\n인터넷 연결을 확인하십시오.";
+
+/* Class = "IBUILabel"; text = "送信中"; ObjectID = "oaI-oe-pJH"; */
+"oaI-oe-pJH.text" = "보내는 중";

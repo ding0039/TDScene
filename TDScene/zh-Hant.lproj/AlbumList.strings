@@ -1,0 +1,6 @@
+
+/* Class = "IBUILabel"; text = "アルバムがありません"; ObjectID = "BEB-U1-TDz"; */
+"BEB-U1-TDz.text" = "尚無相簿";
+
+/* Class = "IBUILabel"; text = "画面左上の「＋」ボタンをタップすると\n新しいアルバムを作成できます。"; ObjectID = "e6k-ZQ-2n6"; */
+"e6k-ZQ-2n6.text" = "點一下左上方的 ＋ 按鈕以建立新相簿";

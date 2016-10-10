@@ -1,0 +1,9 @@
+
+/* Class = "IBUILabel"; text = "Scene Connectを使うと、PCやMacから写真をスマートフォンに取り込めます。"; ObjectID = "KQs-8f-ksu"; */
+"KQs-8f-ksu.text" = "O Scene Connect permite importar fotos do PC ou Mac para o smartphone.";
+
+/* Class = "IBUIButton"; normalTitle = "Scene Connectについて"; ObjectID = "Qec-rs-Vrn"; */
+"Qec-rs-Vrn.normalTitle" = "Sobre o Scene Connect";
+
+/* Class = "IBUILabel"; text = "デバイスがありません"; ObjectID = "hAB-cd-2Ja"; */
+"hAB-cd-2Ja.text" = "Nenhum dispositivo";

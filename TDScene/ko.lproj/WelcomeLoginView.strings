@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "はじめる"; ObjectID = "9qx-m0-cF4"; */
+"9qx-m0-cF4.normalTitle" = "시작하기";
+
+/* Class = "UILabel"; text = "ようこそScene＜シーン＞へ"; ObjectID = "DmG-KK-sEf"; */
+"DmG-KK-sEf.text" = "Scene에 오신 것을 환영합니다.";
+
+/* Class = "UIButton"; normalTitle = "アカウントをお持ちの方は ログイン"; ObjectID = "ESu-tO-2JF"; */
+"ESu-tO-2JF.normalTitle" = "이미 계정이 있습니까? 지금 로그인하세요.";
+
+/* Class = "UIButton"; normalTitle = "利用規約"; ObjectID = "Q4N-lg-9PP"; */
+"Q4N-lg-9PP.normalTitle" = "이용 약관";
+
+/* Class = "UITextField"; placeholder = "ニックネームを入力"; ObjectID = "oZI-G2-dQZ"; */
+"oZI-G2-dQZ.placeholder" = "이름 입력";

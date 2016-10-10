@@ -1,0 +1,51 @@
+
+/* Class = "IBUITableViewSection"; footerTitle = "合言葉を設定すると、合言葉を知っている人だけがアルバムのURLを開けます。"; ObjectID = "29r-hO-jIX"; */
+"29r-hO-jIX.footerTitle" = "如果設定，必須輸入密碼才能開啟相簿連結。";
+
+/* Class = "IBUILabel"; text = "誰でも"; ObjectID = "3Qk-dE-l4h"; */
+"3Qk-dE-l4h.text" = "所有人";
+
+/* Class = "IBUILabel"; text = "カバー写真"; ObjectID = "96z-ap-AGz"; */
+"96z-ap-AGz.text" = "封面照片";
+
+/* Class = "IBUILabel"; text = "2013.07.18"; ObjectID = "9WY-Ip-WAo"; */
+"9WY-Ip-WAo.text" = "2013.07.18";
+
+/* Class = "IBUILabel"; text = "なし"; ObjectID = "9sy-kQ-yzU"; */
+"9sy-kQ-yzU.text" = "無";
+
+/* Class = "IBUILabel"; text = "合言葉"; ObjectID = "CnM-ru-efC"; */
+"CnM-ru-efC.text" = "密碼";
+
+/* Class = "IBUILabel"; text = "参加者の追加と削除"; ObjectID = "HZi-Ew-f56"; */
+"HZi-Ew-f56.text" = "新增/移除成員";
+
+/* Class = "IBUILabel"; text = "投稿者"; ObjectID = "LIV-xB-qa3"; */
+"LIV-xB-qa3.text" = "擁有者";
+
+/* Class = "IBUIButton"; normalTitle = "送信"; ObjectID = "Mrx-zM-eYJ"; */
+"Mrx-zM-eYJ.normalTitle" = "傳送";
+
+/* Class = "IBUILabel"; text = "写真の編集"; ObjectID = "PCG-L4-rTf"; */
+"PCG-L4-rTf.text" = "編輯照片";
+
+/* Class = "IBUILabel"; text = "撮影場所の共有"; ObjectID = "Rx4-My-TtF"; */
+"Rx4-My-TtF.text" = "分享照片位置";
+
+/* Class = "IBUITableViewSection"; headerTitle = "詳細設定"; ObjectID = "ha4-gk-37d"; */
+"ha4-gk-37d.headerTitle" = "進階";
+
+/* Class = "IBUILabel"; text = "誰でも"; ObjectID = "ocw-vN-fOM"; */
+"ocw-vN-fOM.text" = "所有人";
+
+/* Class = "IBUITableViewSection"; footerTitle = " \n \n"; ObjectID = "r02-Gp-9q9"; */
+"r02-Gp-9q9.footerTitle" = " \n \n";
+
+/* Class = "IBUITableViewSection"; headerTitle = "位置情報"; ObjectID = "r02-Gp-9q9"; */
+"r02-Gp-9q9.headerTitle" = "位置";
+
+/* Class = "IBUILabel"; text = "写真の追加と削除"; ObjectID = "vlx-DJ-7Zg"; */
+"vlx-DJ-7Zg.text" = "新增/移除照片";
+
+/* Class = "IBUILabel"; text = "アルバム名"; ObjectID = "z9Y-6o-svz"; */
+"z9Y-6o-svz.text" = "相簿名稱";

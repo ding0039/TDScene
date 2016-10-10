@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "アルバムの写真を使って、フォトブックを印刷できます。"; ObjectID = "KWa-IQ-DlI"; */
+"KWa-IQ-DlI.text" = "订购为您的相册打印相刊的服务。";
+
+/* Class = "UIButton"; normalTitle = "キャンセル"; ObjectID = "WyW-fx-R3U"; */
+"WyW-fx-R3U.normalTitle" = "取消";
+
+/* Class = "UILabel"; text = "フォトブック印刷"; ObjectID = "hcT-Bz-NC9"; */
+"hcT-Bz-NC9.text" = "Scene 相刊";
+
+/* Class = "UIButton"; normalTitle = "フォトブックを作成"; ObjectID = "tcO-y6-6Eo"; */
+"tcO-y6-6Eo.normalTitle" = "创建相刊";

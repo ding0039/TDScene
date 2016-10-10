@@ -1,0 +1,39 @@
+
+/* Class = "IBUILabel"; text = "0/10"; ObjectID = "00g-Ha-N7M"; */
+"00g-Ha-N7M.text" = "0/10";
+
+/* Class = "IBUILabel"; text = "0/10"; ObjectID = "3Co-Db-HZt"; */
+"3Co-Db-HZt.text" = "0/10";
+
+/* Class = "IBUILabel"; text = "カバー写真"; ObjectID = "5jr-4p-kVr"; */
+"5jr-4p-kVr.text" = "封面照片";
+
+/* Class = "IBUILabel"; text = "0/10"; ObjectID = "EDa-ay-3JJ"; */
+"EDa-ay-3JJ.text" = "0/10";
+
+/* Class = "IBUITableViewSection"; headerTitle = "基本"; ObjectID = "Pwb-7P-UBC"; */
+"Pwb-7P-UBC.headerTitle" = "一般";
+
+/* Class = "IBUINavigationItem"; title = "お気に入りの設定"; ObjectID = "VPt-C2-cPi"; */
+"VPt-C2-cPi.title" = "喜好項目設定";
+
+/* Class = "IBUILabel"; text = "オフ"; ObjectID = "YcZ-BE-hlM"; */
+"YcZ-BE-hlM.text" = "關閉";
+
+/* Class = "IBUITableViewSection"; footerTitle = "合言葉を設定するとブラウザでアルバムURLを開くときに、合言葉の入力が必要になります。"; ObjectID = "abm-WV-QH1"; */
+"abm-WV-QH1.footerTitle" = "若有設定，在網頁瀏覽器中開啟相簿連結時會要求輸入密碼。";
+
+/* Class = "IBUILabel"; text = "撮影が新しい順"; ObjectID = "cze-ez-FZ8"; */
+"cze-ez-FZ8.text" = "從新到舊";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "eSq-zo-dep"; */
+"eSq-zo-dep.text" = "標題";
+
+/* Class = "IBUITableViewSection"; footerTitle = "リセットすると、アルバム名を作成者がつけた名前に戻します。"; ObjectID = "qIf-7R-f4F"; */
+"qIf-7R-f4F.footerTitle" = "重設將恢復到相簿建立者所選擇的原始名稱。";
+
+/* Class = "IBUILabel"; text = "リセット"; ObjectID = "srf-PV-BPJ"; */
+"srf-PV-BPJ.text" = "重設";
+
+/* Class = "IBUILabel"; text = "撮影が古い順"; ObjectID = "yr3-4W-ahJ"; */
+"yr3-4W-ahJ.text" = "從舊到新";

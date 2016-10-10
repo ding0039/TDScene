@@ -1,0 +1,15 @@
+
+/* Class = "UIButton"; normalTitle = "はじめる"; ObjectID = "9qx-m0-cF4"; */
+"9qx-m0-cF4.normalTitle" = "はじめる";
+
+/* Class = "UILabel"; text = "ようこそScene＜シーン＞へ"; ObjectID = "DmG-KK-sEf"; */
+"DmG-KK-sEf.text" = "ようこそScene＜シーン＞へ";
+
+/* Class = "UIButton"; normalTitle = "アカウントをお持ちの方は ログイン"; ObjectID = "ESu-tO-2JF"; */
+"ESu-tO-2JF.normalTitle" = "アカウントをお持ちの方は ログイン";
+
+/* Class = "UIButton"; normalTitle = "利用規約"; ObjectID = "Q4N-lg-9PP"; */
+"Q4N-lg-9PP.normalTitle" = "利用規約";
+
+/* Class = "UITextField"; placeholder = "ニックネームを入力"; ObjectID = "oZI-G2-dQZ"; */
+"oZI-G2-dQZ.placeholder" = "ニックネームを入力";

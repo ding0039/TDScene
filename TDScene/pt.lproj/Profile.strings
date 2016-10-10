@@ -1,0 +1,54 @@
+
+/* Class = "IBUIBarButtonItem"; title = "OK"; ObjectID = "2HI-JU-2iv"; */
+"2HI-JU-2iv.title" = "OK";
+
+/* Class = "IBUIButton"; normalTitle = "編集"; ObjectID = "8HR-ud-tdC"; */
+"8HR-ud-tdC.normalTitle" = "Editar";
+
+/* Class = "IBUILabel"; text = "original_name"; ObjectID = "HkD-iC-rgS"; */
+"HkD-iC-rgS.text" = "original_name";
+
+/* Class = "IBUILabel"; text = "参加中のアルバム (0)"; ObjectID = "HsN-zZ-gMU"; */
+"HsN-zZ-gMU.text" = "Álbuns compartilhados (0)";
+
+/* Class = "IBUILabel"; text = "無視しているユーザーの情報は\n新着情報に表示されません"; ObjectID = "Izo-H3-5iC"; */
+"Izo-H3-5iC.text" = "Você não receberá atualizações de pessoas na lista de ignorados.";
+
+/* Class = "IBUILabel"; text = "友達を招待"; ObjectID = "MNt-Q1-MZ5"; */
+"MNt-Q1-MZ5.text" = "Enviar um convite";
+
+/* Class = "IBUILabel"; text = "フレンドかも？"; ObjectID = "NSm-0f-tvC"; */
+"NSm-0f-tvC.text" = "É amigo seu?";
+
+/* Class = "IBUILabel"; text = "相手のIDは、相手のSceneで同じ画面を開いて確認してください。"; ObjectID = "UmO-eG-Cdy"; */
+"UmO-eG-Cdy.text" = "Encontre o ID do amigo abrindo essa tela no aplicativo Scene dele.";
+
+/* Class = "IBUINavigationItem"; title = "Title"; ObjectID = "WzX-gP-hvp"; */
+"WzX-gP-hvp.title" = "Título";
+
+/* Class = "IBUILabel"; text = "あなたのID"; ObjectID = "Y31-Md-Tnf"; */
+"Y31-Md-Tnf.text" = "Meu ID";
+
+/* Class = "IBUILabel"; text = "Dummy"; ObjectID = "abC-Sf-HGu"; */
+"abC-Sf-HGu.text" = "Dummy";
+
+/* Class = "IBUILabel"; text = "0/10"; ObjectID = "c2N-LY-T1m"; */
+"c2N-LY-T1m.text" = "0/10";
+
+/* Class = "IBUILabel"; text = "フレンドを選択してください"; ObjectID = "fSN-yT-99S"; */
+"fSN-yT-99S.text" = "Selecione um amigo";
+
+/* Class = "IBUIBarButtonItem"; title = "閉じる"; ObjectID = "mTR-F2-1i5"; */
+"mTR-F2-1i5.title" = "Fechar";
+
+/* Class = "IBUITableViewController"; title = "名前の編集"; ObjectID = "nHN-O6-r8a"; */
+"nHN-O6-r8a.title" = "Editar nome";
+
+/* Class = "IBUILabel"; text = "相手のIDを入力"; ObjectID = "rS5-3s-v5B"; */
+"rS5-3s-v5B.text" = "Inserir ID do amigo";
+
+/* Class = "IBUILabel"; text = "フレンドIDの確認・入力"; ObjectID = "uVy-Nu-aAp"; */
+"uVy-Nu-aAp.text" = "Exibir/inserir ID de amigo";
+
+/* Class = "IBUILabel"; text = "アルバムがありません"; ObjectID = "ukj-Ia-iT6"; */
+"ukj-Ia-iT6.text" = "Nenhum álbum ainda";

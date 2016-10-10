@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "最新バージョン"; ObjectID = "25d-do-r4v"; */
+"25d-do-r4v.text" = "최신 버전";
+
+/* Class = "UILabel"; text = "アルバム同期"; ObjectID = "3WV-fo-Oir"; */
+"3WV-fo-Oir.text" = "앨범 동기화";
+
+/* Class = "UILabel"; text = "無視しているユーザはいません"; ObjectID = "Cqi-Fl-oIR"; */
+"Cqi-Fl-oIR.text" = "무시한 회원이 없습니다";
+
+/* Class = "UILabel"; text = "既存アカウントでログイン"; ObjectID = "DZD-zv-IAN"; */
+"DZD-zv-IAN.text" = "기존 계정으로 로그인";
+
+/* Class = "UILabel"; text = "リセット"; ObjectID = "Etb-1V-BtN"; */
+"Etb-1V-BtN.text" = "재설정";
+
+/* Class = "UILabel"; text = "10%完了（ダミー）"; ObjectID = "HFD-sd-r68"; */
+"HFD-sd-r68.text" = "10% 완료(견본)";
+
+/* Class = "UILabel"; text = "本ソフトウェアには特許第4717963号をはじめ\n登録済みおよび出願中の特許技術が使用されています\n\nCopyright © 2013-2015 Ripplex Inc. All Rights Reserved."; ObjectID = "PJh-Vz-QRZ"; */
+"PJh-Vz-QRZ.text" = "이 소프트웨어는 특허번호 4717963을 비롯하여 출원 중이거나 출원된 특허를 통해 보호되는 기술을 사용합니다.\n\nCopyright © 2013-2015 Ripplex Inc. All Rights Reserved.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "TwF-sR-XcC"; */
+"TwF-sR-XcC.text" = "제목";
+
+/* Class = "UILabel"; text = "新規アカウント登録"; ObjectID = "UyA-Cn-vln"; */
+"UyA-Cn-vln.text" = "새 계정 등록";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "WPX-ia-ZzA"; */
+"WPX-ia-ZzA.text" = "세부사항";
+
+/* Class = "UILabel"; text = " "; ObjectID = "hs9-hR-5uD"; */
+"hs9-hR-5uD.text" = " ";
+
+/* Class = "UILabel"; text = "登録情報の確認・変更"; ObjectID = "kJC-7S-VGh"; */
+"kJC-7S-VGh.text" = "계정 정보 확인 및 변경";
+
+/* Class = "UILabel"; text = "無視リスト"; ObjectID = "pCC-KN-2ce"; */
+"pCC-KN-2ce.text" = "무시 목록";
+
+/* Class = "UILabel"; text = "Version: 1.001 Beta"; ObjectID = "uiz-mO-vUW"; */
+"uiz-mO-vUW.text" = "버전: 1.001 베타";
+
+/* Class = "UILabel"; text = "使用状況"; ObjectID = "wAf-9R-Qsr"; */
+"wAf-9R-Qsr.text" = "이용 상황";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "zrV-V7-Wt7"; */
+"zrV-V7-Wt7.text" = "제목";

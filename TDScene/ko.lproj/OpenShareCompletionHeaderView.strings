@@ -1,0 +1,6 @@
+
+/* Class = "IBUILabel"; text = "アルバムの公開が完了しました。次のリンクから公開内容を確認できます。"; ObjectID = "3KV-Xl-YLO"; */
+"3KV-Xl-YLO.text" = "앨범이 공개되었습니다. 다음 링크에서 볼 수 있습니다.";
+
+/* Class = "IBUITextView"; text = "http://www.google.co.jp/"; ObjectID = "AI2-X4-GpN"; */
+"AI2-X4-GpN.text" = "http://www.google.com/";

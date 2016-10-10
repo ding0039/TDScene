@@ -1,0 +1,12 @@
+
+/* Class = "IBUIViewController"; title = "アカウント"; ObjectID = "Rn0-pV-YYG"; */
+"Rn0-pV-YYG.title" = "账号";
+
+/* Class = "IBUILabel"; text = "okazaki@ripplex.com\n"; ObjectID = "f0N-oy-Fl2"; */
+"f0N-oy-Fl2.text" = "okazaki@ripplex.com\n";
+
+/* Class = "IBUILabel"; text = "でログイン中\n"; ObjectID = "hBC-ep-pMl"; */
+"hBC-ep-pMl.text" = "已登录";
+
+/* Class = "IBUILabel"; text = "登録情報の変更"; ObjectID = "ohI-Lb-U74"; */
+"ohI-Lb-U74.text" = "编辑账号";

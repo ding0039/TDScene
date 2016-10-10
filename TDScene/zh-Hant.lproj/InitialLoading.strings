@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "Sceneを使いはじめるために\n写真の準備をしています。\nしばらくお待ちください。"; ObjectID = "GRV-ok-A21"; */
+"GRV-ok-A21.text" = "Scene 正在準備您的照片。請耐心等待。";
+
+/* Class = "UILabel"; text = "10000"; ObjectID = "NFo-RG-1jz"; */
+"NFo-RG-1jz.text" = "10000";
+
+/* Class = "UILabel"; text = " / "; ObjectID = "sBS-fG-2kT"; */
+"sBS-fG-2kT.text" = " / ";
+
+/* Class = "UILabel"; text = "この処理は初回のみです。\n次回以降はすぐに起動します。"; ObjectID = "sw8-Kw-hB8"; */
+"sw8-Kw-hB8.text" = "此情況只會發生一次。下次啟動時，Scene 將會立即啟動。";
+
+/* Class = "UILabel"; text = "1000"; ObjectID = "tVk-3u-tdc"; */
+"tVk-3u-tdc.text" = "1000";

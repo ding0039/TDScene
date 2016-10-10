@@ -1,0 +1,15 @@
+
+/* Class = "IBUIButton"; normalTitle = "パスワードを忘れた"; ObjectID = "JuW-Sx-rDD"; */
+"JuW-Sx-rDD.normalTitle" = "忘记密码？";
+
+/* Class = "IBUISegmentedControl"; are-38-X3M.segmentTitles[0] = "前へ"; ObjectID = "are-38-X3M"; */
+"are-38-X3M.segmentTitles[0]" = "返回";
+
+/* Class = "IBUISegmentedControl"; are-38-X3M.segmentTitles[1] = "次へ"; ObjectID = "are-38-X3M"; */
+"are-38-X3M.segmentTitles[1]" = "下一步";
+
+/* Class = "IBUIButton"; normalTitle = "利用規約"; ObjectID = "eyL-So-qR1"; */
+"eyL-So-qR1.normalTitle" = "使用条款";
+
+/* Class = "IBUIButton"; normalTitle = "プライバシーポリシー"; ObjectID = "yUf-XO-Rqe"; */
+"yUf-XO-Rqe.normalTitle" = "隐私政策";

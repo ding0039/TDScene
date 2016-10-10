@@ -1,0 +1,9 @@
+
+/* Class = "IBUINavigationItem"; title = "完了"; ObjectID = "0EE-l4-CcN"; */
+"0EE-l4-CcN.title" = "完成";
+
+/* Class = "IBUILabel"; text = "登録が完了しました。"; ObjectID = "23h-wk-Wcz"; */
+"23h-wk-Wcz.text" = "注册完成。";
+
+/* Class = "IBUIButton"; normalTitle = "OK"; ObjectID = "YqF-pk-0Pt"; */
+"YqF-pk-0Pt.normalTitle" = "确认";

@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "もらった写真"; ObjectID = "2GV-KI-LYh"; */
+"2GV-KI-LYh.text" = "친구의 사진";
+
+/* Class = "UISegmentedControl"; 7jk-dT-bYJ.segmentTitles[0] = "—"; ObjectID = "7jk-dT-bYJ"; */
+"7jk-dT-bYJ.segmentTitles[0]" = "—";
+
+/* Class = "UISegmentedControl"; 7jk-dT-bYJ.segmentTitles[1] = "＋"; ObjectID = "7jk-dT-bYJ"; */
+"7jk-dT-bYJ.segmentTitles[1]" = "＋";
+
+/* Class = "UILabel"; text = "表示列数"; ObjectID = "Hag-3i-6CE"; */
+"Hag-3i-6CE.text" = "보이는 열";
+
+/* Class = "UILabel"; text = "説明文"; ObjectID = "JdA-hj-Y2R"; */
+"JdA-hj-Y2R.text" = "설명문";
+
+/* Class = "UILabel"; text = "日付アイコン"; ObjectID = "Kvs-6y-RfW"; */
+"Kvs-6y-RfW.text" = "날짜 아이콘";
+
+/* Class = "UILabel"; text = "ヒントを表示"; ObjectID = "fC4-Lj-4pT"; */
+"fC4-Lj-4pT.text" = "사용법 힌트 보기";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "np4-6b-L6q"; */
+"np4-6b-L6q.text" = "5";
+
+/* Class = "UILabel"; text = "表示順を逆に"; ObjectID = "qim-JZ-C8R"; */
+"qim-JZ-C8R.text" = "정렬 순서를 반대로";

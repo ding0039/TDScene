@@ -1,0 +1,9 @@
+
+/* Class = "IBUILabel"; text = "同期は一時停止しています"; ObjectID = "Mgi-IF-ZK6"; */
+"Mgi-IF-ZK6.text" = "La sincronización está en pausa";
+
+/* Class = "IBUIButton"; normalTitle = "詳細"; ObjectID = "WJp-h5-Ojv"; */
+"WJp-h5-Ojv.normalTitle" = "Detalles";
+
+/* Class = "IBUILabel"; text = "同期中（10/ 10,024）"; ObjectID = "afF-tK-AXP"; */
+"afF-tK-AXP.text" = "Sincronizando (10 / 10.024)";

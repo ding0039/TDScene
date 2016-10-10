@@ -1,0 +1,39 @@
+
+/* Class = "IBUILabel"; text = "0/10"; ObjectID = "00g-Ha-N7M"; */
+"00g-Ha-N7M.text" = "0/10";
+
+/* Class = "IBUILabel"; text = "0/10"; ObjectID = "3Co-Db-HZt"; */
+"3Co-Db-HZt.text" = "0/10";
+
+/* Class = "IBUILabel"; text = "カバー写真"; ObjectID = "5jr-4p-kVr"; */
+"5jr-4p-kVr.text" = "Cover Photo";
+
+/* Class = "IBUILabel"; text = "0/10"; ObjectID = "EDa-ay-3JJ"; */
+"EDa-ay-3JJ.text" = "0/10";
+
+/* Class = "IBUITableViewSection"; headerTitle = "基本"; ObjectID = "Pwb-7P-UBC"; */
+"Pwb-7P-UBC.headerTitle" = "General";
+
+/* Class = "IBUINavigationItem"; title = "お気に入りの設定"; ObjectID = "VPt-C2-cPi"; */
+"VPt-C2-cPi.title" = "Favorites Settings";
+
+/* Class = "IBUILabel"; text = "オフ"; ObjectID = "YcZ-BE-hlM"; */
+"YcZ-BE-hlM.text" = "Off";
+
+/* Class = "IBUITableViewSection"; footerTitle = "合言葉を設定するとブラウザでアルバムURLを開くときに、合言葉の入力が必要になります。"; ObjectID = "abm-WV-QH1"; */
+"abm-WV-QH1.footerTitle" = "If set, the password will be required when opening the album link in a web browser.";
+
+/* Class = "IBUILabel"; text = "撮影が新しい順"; ObjectID = "cze-ez-FZ8"; */
+"cze-ez-FZ8.text" = "Newest First";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "eSq-zo-dep"; */
+"eSq-zo-dep.text" = "Title";
+
+/* Class = "IBUITableViewSection"; footerTitle = "リセットすると、アルバム名を作成者がつけた名前に戻します。"; ObjectID = "qIf-7R-f4F"; */
+"qIf-7R-f4F.footerTitle" = "Resetting will restore the name originally chosen by the album’s creator.";
+
+/* Class = "IBUILabel"; text = "リセット"; ObjectID = "srf-PV-BPJ"; */
+"srf-PV-BPJ.text" = "Reset";
+
+/* Class = "IBUILabel"; text = "撮影が古い順"; ObjectID = "yr3-4W-ahJ"; */
+"yr3-4W-ahJ.text" = "Oldest First";

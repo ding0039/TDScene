@@ -1,0 +1,6 @@
+
+/* Class = "IBUIButton"; normalTitle = "写真を撮影"; ObjectID = "10"; */
+"10.normalTitle" = "拍照";
+
+/* Class = "IBUIButton"; normalTitle = "カメラロール"; ObjectID = "14"; */
+"14.normalTitle" = "手机相册";

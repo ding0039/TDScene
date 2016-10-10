@@ -1,0 +1,30 @@
+
+/* Class = "IBUIButton"; normalTitle = "写真を保存"; ObjectID = "4SJ-Su-iV9"; */
+"4SJ-Su-iV9.normalTitle" = "写真を保存";
+
+/* Class = "IBUIButton"; normalTitle = "いいね"; ObjectID = "BfY-ut-L5N"; */
+"BfY-ut-L5N.normalTitle" = "いいね";
+
+/* Class = "IBUIButton"; normalTitle = "Masayuki"; ObjectID = "E0g-Cq-8VX"; */
+"E0g-Cq-8VX.normalTitle" = "Masayuki";
+
+/* Class = "IBUILabel"; text = "7件のコメント"; ObjectID = "MQ2-QI-zoT"; */
+"MQ2-QI-zoT.text" = "7件のコメント";
+
+/* Class = "IBUIButton"; normalTitle = "シェア"; ObjectID = "Nwk-Ja-A2q"; */
+"Nwk-Ja-A2q.normalTitle" = "シェア";
+
+/* Class = "IBUIButton"; normalTitle = "あなたと他7人が「いいね！」しました。"; ObjectID = "PmN-LV-xJb"; */
+"PmN-LV-xJb.normalTitle" = "あなたと他7人が「いいね！」しました。";
+
+/* Class = "IBUIButton"; normalTitle = "編集"; ObjectID = "Qcv-gz-WfB"; */
+"Qcv-gz-WfB.normalTitle" = "編集";
+
+/* Class = "IBUILabel"; text = "2014/09/06 14:05"; ObjectID = "YVZ-mV-bQv"; */
+"YVZ-mV-bQv.text" = "2014/09/06 14:05";
+
+/* Class = "IBUIButton"; normalTitle = "もっと見る"; ObjectID = "dsu-JB-Ntd"; */
+"dsu-JB-Ntd.normalTitle" = "もっと見る";
+
+/* Class = "IBUITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut "; ObjectID = "je9-xe-jCh"; */
+"je9-xe-jCh.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut ";

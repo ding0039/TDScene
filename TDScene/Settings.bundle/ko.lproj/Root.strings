@@ -1,0 +1,5 @@
+/* A single strings file, whose title is specified in your preferences schema. The strings files provide the localized content to display to the user for each of your preferences. */
+
+"About" = "이 앱에 대하여";
+"Version" = "버전";
+"Support ID" = "지원 ID";
