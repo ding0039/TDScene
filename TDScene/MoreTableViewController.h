@@ -7,10 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-//#import "TDTransitionVerticalPop.h"
-#import "TDTransitionVerticalPush.h"
-#import "HelpTableViewController.h"
 
-@interface MoreTableViewController : UITableViewController <UINavigationControllerDelegate>
+
+@interface MoreTableViewController : UITableViewController 
 
 @end

@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TDTransitionVerticalPop.h"
+#import "TDTransitionVerticalPush.h"
+#import "HelpTableViewController.h"
 
-@interface TDNavigationControllerDelegate : NSObject
+@interface TDNavigationControllerDelegate : NSObject <UINavigationControllerDelegate>
 
 @end

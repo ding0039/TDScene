@@ -810,6 +810,7 @@
 		001F0AC81D6EE8B00049F921 /* photobook_dialog_sample_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001F0AC51D6EE8B00049F921 /* photobook_dialog_sample_image.jpg */; };
 		001F0AC91D6EE8B00049F921 /* photobook_dialog_sample_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001F0AC61D6EE8B00049F921 /* photobook_dialog_sample_image@2x.jpg */; };
 		001F0ACA1D6EE8B00049F921 /* photobook_dialog_sample_image@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001F0AC71D6EE8B00049F921 /* photobook_dialog_sample_image@3x.jpg */; };
+		003B9E3F1DACDAF30085056E /* TDNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B9E3E1DACDAF30085056E /* TDNavigationControllerDelegate.m */; };
 		005169001D9CB515009C2C8E /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005168FF1D9CB515009C2C8E /* AlbumModel.m */; };
 		0053F0701D93C9D100BD8367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0053F06F1D93C9D100BD8367 /* Assets.xcassets */; };
 		00755C9D1D701017003DF0FE /* TDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00755C9C1D701017003DF0FE /* TDTabBarController.m */; };
@@ -829,8 +830,6 @@
 		007E32551DA9E41900D05B84 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 007E32541DA9E41800D05B84 /* libsqlite3.tbd */; };
 		008E7F4F1DAA4BFA00615FED /* TDTransitionVerticalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 008E7F4E1DAA4BFA00615FED /* TDTransitionVerticalPush.m */; };
 		008E7F521DAB634C00615FED /* TDTransitionVerticalPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 008E7F511DAB634C00615FED /* TDTransitionVerticalPop.m */; };
-		008E7F561DAB6C7D00615FED /* TDSegueVerticalPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 008E7F551DAB6C7D00615FED /* TDSegueVerticalPush.m */; };
-		008E7F591DAB6C8D00615FED /* TDSegueVerticalPop.m in Sources */ = {isa = PBXBuildFile; fileRef = 008E7F581DAB6C8D00615FED /* TDSegueVerticalPop.m */; };
 		0097D8CD1D99149E0047DB2B /* TDNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097D8CC1D99149E0047DB2B /* TDNotification.m */; };
 		0097D8D11D9925220047DB2B /* TDNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097D8D01D9925220047DB2B /* TDNotificationController.m */; };
 		00A4C0B61DA898570094C974 /* HelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A4C0B51DA898570094C974 /* HelpTableViewController.m */; };
@@ -1675,6 +1674,8 @@
 		001F0ACD1D6EE8DF0049F921 /* OrganizerHint.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = OrganizerHint.mp4; sourceTree = "<group>"; };
 		001F0ACE1D6EE8F30049F921 /* DaySelectionHint.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DaySelectionHint.mp4; sourceTree = "<group>"; };
 		001F0ACF1D6EE8F30049F921 /* DragDropHint.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DragDropHint.mp4; sourceTree = "<group>"; };
+		003B9E3D1DACDAF30085056E /* TDNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		003B9E3E1DACDAF30085056E /* TDNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDNavigationControllerDelegate.m; sourceTree = "<group>"; };
 		005168FE1D9CB515009C2C8E /* AlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
 		005168FF1D9CB515009C2C8E /* AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
 		0053F06F1D93C9D100BD8367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1708,10 +1709,6 @@
 		008E7F4E1DAA4BFA00615FED /* TDTransitionVerticalPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTransitionVerticalPush.m; sourceTree = "<group>"; };
 		008E7F501DAB634C00615FED /* TDTransitionVerticalPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTransitionVerticalPop.h; sourceTree = "<group>"; };
 		008E7F511DAB634C00615FED /* TDTransitionVerticalPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTransitionVerticalPop.m; sourceTree = "<group>"; };
-		008E7F541DAB6C7D00615FED /* TDSegueVerticalPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSegueVerticalPush.h; sourceTree = "<group>"; };
-		008E7F551DAB6C7D00615FED /* TDSegueVerticalPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSegueVerticalPush.m; sourceTree = "<group>"; };
-		008E7F571DAB6C8D00615FED /* TDSegueVerticalPop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDSegueVerticalPop.h; sourceTree = "<group>"; };
-		008E7F581DAB6C8D00615FED /* TDSegueVerticalPop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDSegueVerticalPop.m; sourceTree = "<group>"; };
 		0097D8CB1D99149E0047DB2B /* TDNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDNotification.h; sourceTree = "<group>"; };
 		0097D8CC1D99149E0047DB2B /* TDNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDNotification.m; sourceTree = "<group>"; };
 		0097D8CE1D9914D60047DB2B /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
@@ -2787,10 +2784,8 @@
 				008E7F4E1DAA4BFA00615FED /* TDTransitionVerticalPush.m */,
 				008E7F501DAB634C00615FED /* TDTransitionVerticalPop.h */,
 				008E7F511DAB634C00615FED /* TDTransitionVerticalPop.m */,
-				008E7F541DAB6C7D00615FED /* TDSegueVerticalPush.h */,
-				008E7F551DAB6C7D00615FED /* TDSegueVerticalPush.m */,
-				008E7F571DAB6C8D00615FED /* TDSegueVerticalPop.h */,
-				008E7F581DAB6C8D00615FED /* TDSegueVerticalPop.m */,
+				003B9E3D1DACDAF30085056E /* TDNavigationControllerDelegate.h */,
+				003B9E3E1DACDAF30085056E /* TDNavigationControllerDelegate.m */,
 			);
 			name = VC_AnimatedTransitioning;
 			sourceTree = "<group>";
@@ -3794,14 +3789,13 @@
 				007E324A1DA9E39700D05B84 /* FMDatabase.m in Sources */,
 				0097D8CD1D99149E0047DB2B /* TDNotification.m in Sources */,
 				00A4C0B61DA898570094C974 /* HelpTableViewController.m in Sources */,
-				008E7F591DAB6C8D00615FED /* TDSegueVerticalPop.m in Sources */,
+				003B9E3F1DACDAF30085056E /* TDNavigationControllerDelegate.m in Sources */,
 				001F01341D6EE0E90049F921 /* AppDelegate.m in Sources */,
 				008E7F521DAB634C00615FED /* TDTransitionVerticalPop.m in Sources */,
 				007E323B1DA9D8C500D05B84 /* SettingTableViewController.m in Sources */,
 				007E324B1DA9E39700D05B84 /* FMDatabaseAdditions.m in Sources */,
 				00755C9D1D701017003DF0FE /* TDTabBarController.m in Sources */,
 				007E32381DA8ED1200D05B84 /* MoreTableViewController.m in Sources */,
-				008E7F561DAB6C7D00615FED /* TDSegueVerticalPush.m in Sources */,
 				001F01371D6EE0E90049F921 /* ImitatedScene.xcdatamodeld in Sources */,
 				001F01311D6EE0E90049F921 /* main.m in Sources */,
 				00ECE54A1D9A17030094F1D4 /* TDNotificationView.m in Sources */,

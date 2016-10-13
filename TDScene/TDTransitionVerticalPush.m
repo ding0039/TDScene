@@ -30,7 +30,8 @@
     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         toVC.view.frame = CGRectMake(0, 0, toVC.view.frame.size.width, toVC.view.frame.size.height);
     } completion:^(BOOL finished) {
-
+        BOOL cancelled = transitionContext.transitionWasCancelled;
+        [transitionContext completeTransition:!cancelled];
     }];
 
 }

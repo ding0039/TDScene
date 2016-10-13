@@ -24,15 +24,6 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
--(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
-
-    if (operation == UINavigationControllerOperationPush && [toVC isKindOfClass:[HelpTableViewController class]]) {
-        return [[TDTransitionVerticalPush alloc]init];
-    }else{
-        return nil;
-    }
-}
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
