@@ -10,14 +10,14 @@
 
 @implementation TDTransitionVerticalPush
 
-
+//转场时间
 - (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext{
     return 0.5;
 }
 // This method can only  be a nop if the transition is interactive and not a percentDriven interactive transition.
 - (void)animateTransition:(id <UIViewControllerContextTransitioning>)transitionContext{
     // 起始VC
-    UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
+//    UIViewController *fromVC = [transitionContext viewControllerForKey:UITransitionContextFromViewControllerKey];
     // 目的VC
     UIViewController *toVC = [transitionContext viewControllerForKey:UITransitionContextToViewControllerKey];
     // 转场视图容器
@@ -31,23 +31,9 @@
         toVC.view.frame = CGRectMake(0, 0, toVC.view.frame.size.width, toVC.view.frame.size.height);
     } completion:^(BOOL finished) {
         BOOL cancelled = transitionContext.transitionWasCancelled;
+        // 声明过渡结束
         [transitionContext completeTransition:!cancelled];
     }];
-
-}
-
-
-/// A conforming object implements this method if the transition it creates can
-/// be interrupted. For example, it could return an instance of a
-/// UIViewPropertyAnimator. It is expected that this method will return the same
-/// instance for the life of a transition.
-- (id <UIViewImplicitlyAnimating>) interruptibleAnimatorForTransition:(id <UIViewControllerContextTransitioning>)transitionContext {
-    id ret;
-    return ret;
-}
-
-// This is a convenience and if implemented will be invoked by the system when the transition context's completeTransition: method is invoked.
-- (void)animationEnded:(BOOL) transitionCompleted{
 
 }
 

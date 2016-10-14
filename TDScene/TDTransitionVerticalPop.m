@@ -22,14 +22,17 @@
     // 转场视图容器
     UIView *containerView = [transitionContext containerView];
 
-    //动画
+    //下降动画
     fromVC.view.frame = CGRectMake(0, 0, fromVC.view.frame.size.width, fromVC.view.frame.size.height);
+    [containerView addSubview:toVC.view];
     [containerView addSubview:fromVC.view];
 
     [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
         fromVC.view.frame = CGRectMake(0, Main_Screen_Height, fromVC.view.frame.size.width, fromVC.view.frame.size.height);
     } completion:^(BOOL finished) {
-
+        BOOL cancelled = transitionContext.transitionWasCancelled;
+        // 声明过渡结束
+        [transitionContext completeTransition:!cancelled];
     }];
     
 }

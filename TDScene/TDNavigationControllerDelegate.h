@@ -10,6 +10,7 @@
 #import "TDTransitionVerticalPop.h"
 #import "TDTransitionVerticalPush.h"
 #import "HelpTableViewController.h"
+#import "MoreTableViewController.h"
 
 @interface TDNavigationControllerDelegate : NSObject <UINavigationControllerDelegate>
 
