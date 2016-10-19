@@ -11,6 +11,7 @@
 @implementation TDNavigationControllerDelegate
 
 -(id<UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC{
+
     //指定特殊ViewController之间的跳转动画
     if (operation == UINavigationControllerOperationPush && [fromVC isKindOfClass:[MoreTableViewController class]] && [toVC isKindOfClass:[HelpTableViewController class]]) {
         return [[TDTransitionVerticalPush alloc]init];

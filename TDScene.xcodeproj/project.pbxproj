@@ -833,9 +833,6 @@
 		0097D8CD1D99149E0047DB2B /* TDNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097D8CC1D99149E0047DB2B /* TDNotification.m */; };
 		0097D8D11D9925220047DB2B /* TDNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097D8D01D9925220047DB2B /* TDNotificationController.m */; };
 		00A4C0B61DA898570094C974 /* HelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A4C0B51DA898570094C974 /* HelpTableViewController.m */; };
-		00D6733B1D9B539200AA6471 /* TDAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D6733A1D9B539200AA6471 /* TDAlbumCollectionViewCell.m */; };
-		00ECE54A1D9A17030094F1D4 /* TDNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ECE5491D9A17030094F1D4 /* TDNotificationView.m */; };
-		00ECE54C1D9A170E0094F1D4 /* TDNotificationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00ECE54B1D9A170E0094F1D4 /* TDNotificationView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1717,11 +1714,6 @@
 		00A4C0B41DA898570094C974 /* HelpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpTableViewController.h; sourceTree = "<group>"; };
 		00A4C0B51DA898570094C974 /* HelpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpTableViewController.m; sourceTree = "<group>"; };
 		00A543D91D9B5CD90082D0B4 /* TDScene.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TDScene.entitlements; sourceTree = "<group>"; };
-		00D673391D9B539200AA6471 /* TDAlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAlbumCollectionViewCell.h; sourceTree = "<group>"; };
-		00D6733A1D9B539200AA6471 /* TDAlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAlbumCollectionViewCell.m; sourceTree = "<group>"; };
-		00ECE5481D9A17030094F1D4 /* TDNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDNotificationView.h; sourceTree = "<group>"; };
-		00ECE5491D9A17030094F1D4 /* TDNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDNotificationView.m; sourceTree = "<group>"; };
-		00ECE54B1D9A170E0094F1D4 /* TDNotificationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDNotificationView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1776,7 +1768,6 @@
 			children = (
 				00A543F11D9BC7540082D0B4 /* Framework */,
 				00A543D91D9B5CD90082D0B4 /* TDScene.entitlements */,
-				0097D8CA1D9910A90047DB2B /* View */,
 				0097D8C91D9910830047DB2B /* Tools */,
 				0097D8C81D9910790047DB2B /* Model */,
 				001F017A1D6EE80C0049F921 /* Controller */,
@@ -2765,8 +2756,7 @@
 				007E32471DA9E39700D05B84 /* FMResultSet.h */,
 				007E32481DA9E39700D05B84 /* FMResultSet.m */,
 			);
-			name = fmdb;
-			path = ../fmdb;
+			path = fmdb;
 			sourceTree = "<group>";
 		};
 		007E32531DA9E41800D05B84 /* Frameworks */ = {
@@ -2811,24 +2801,12 @@
 			name = Tools;
 			sourceTree = "<group>";
 		};
-		0097D8CA1D9910A90047DB2B /* View */ = {
-			isa = PBXGroup;
-			children = (
-				00ECE5481D9A17030094F1D4 /* TDNotificationView.h */,
-				00ECE5491D9A17030094F1D4 /* TDNotificationView.m */,
-				00ECE54B1D9A170E0094F1D4 /* TDNotificationView.xib */,
-				00D673391D9B539200AA6471 /* TDAlbumCollectionViewCell.h */,
-				00D6733A1D9B539200AA6471 /* TDAlbumCollectionViewCell.m */,
-			);
-			name = View;
-			sourceTree = "<group>";
-		};
 		00A543F11D9BC7540082D0B4 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
 				007E323D1DA9E39700D05B84 /* fmdb */,
 			);
-			name = Framework;
+			path = Framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -3223,7 +3201,6 @@
 				001F08241D6EE8570049F921 /* WelcomeLoginView.strings in Resources */,
 				001F07F91D6EE8570049F921 /* OthersStrings.strings in Resources */,
 				001F039A1D6EE8350049F921 /* PhotoListCalendarStrings.strings in Resources */,
-				00ECE54C1D9A170E0094F1D4 /* TDNotificationView.xib in Resources */,
 				001F07E31D6EE8570049F921 /* FeedStrings.strings in Resources */,
 				001F06A61D6EE8510049F921 /* Migration.strings in Resources */,
 				001F0A0C1D6EE85F0049F921 /* ExternalServicesStrings.strings in Resources */,
@@ -3776,7 +3753,6 @@
 			files = (
 				001F01741D6EE3390049F921 /* FriendController.m in Sources */,
 				0097D8D11D9925220047DB2B /* TDNotificationController.m in Sources */,
-				00D6733B1D9B539200AA6471 /* TDAlbumCollectionViewCell.m in Sources */,
 				007E324C1DA9E39700D05B84 /* FMDatabasePool.m in Sources */,
 				008E7F4F1DAA4BFA00615FED /* TDTransitionVerticalPush.m in Sources */,
 				007E324D1DA9E39700D05B84 /* FMDatabaseQueue.m in Sources */,
@@ -3798,7 +3774,6 @@
 				007E32381DA8ED1200D05B84 /* MoreTableViewController.m in Sources */,
 				001F01371D6EE0E90049F921 /* ImitatedScene.xcdatamodeld in Sources */,
 				001F01311D6EE0E90049F921 /* main.m in Sources */,
-				00ECE54A1D9A17030094F1D4 /* TDNotificationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
