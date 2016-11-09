@@ -813,6 +813,7 @@
 		003B9E3F1DACDAF30085056E /* TDNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B9E3E1DACDAF30085056E /* TDNavigationControllerDelegate.m */; };
 		005169001D9CB515009C2C8E /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005168FF1D9CB515009C2C8E /* AlbumModel.m */; };
 		0053F0701D93C9D100BD8367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0053F06F1D93C9D100BD8367 /* Assets.xcassets */; };
+		005DE40A1DB9B365001A1730 /* LoginUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 005DE4091DB9B365001A1730 /* LoginUser.m */; };
 		00755C9D1D701017003DF0FE /* TDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00755C9C1D701017003DF0FE /* TDTabBarController.m */; };
 		007E322D1DA8A1AE00D05B84 /* IDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 007E322C1DA8A1AE00D05B84 /* IDViewController.m */; };
 		007E32321DA8D7CF00D05B84 /* Album.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007E322E1DA8D7CF00D05B84 /* Album.storyboard */; };
@@ -833,6 +834,7 @@
 		0097D8CD1D99149E0047DB2B /* TDNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097D8CC1D99149E0047DB2B /* TDNotification.m */; };
 		0097D8D11D9925220047DB2B /* TDNotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0097D8D01D9925220047DB2B /* TDNotificationController.m */; };
 		00A4C0B61DA898570094C974 /* HelpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A4C0B51DA898570094C974 /* HelpTableViewController.m */; };
+		00D4116D1DC340C10026B22E /* TDDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D4116C1DC340C10026B22E /* TDDBManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1676,6 +1678,8 @@
 		005168FE1D9CB515009C2C8E /* AlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
 		005168FF1D9CB515009C2C8E /* AlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumModel.m; sourceTree = "<group>"; };
 		0053F06F1D93C9D100BD8367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		005DE4081DB9B365001A1730 /* LoginUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUser.h; sourceTree = "<group>"; };
+		005DE4091DB9B365001A1730 /* LoginUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUser.m; sourceTree = "<group>"; };
 		00755C9B1D701017003DF0FE /* TDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDTabBarController.h; sourceTree = "<group>"; };
 		00755C9C1D701017003DF0FE /* TDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDTabBarController.m; sourceTree = "<group>"; };
 		007E322B1DA8A1AE00D05B84 /* IDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDViewController.h; sourceTree = "<group>"; };
@@ -1714,6 +1718,8 @@
 		00A4C0B41DA898570094C974 /* HelpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpTableViewController.h; sourceTree = "<group>"; };
 		00A4C0B51DA898570094C974 /* HelpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpTableViewController.m; sourceTree = "<group>"; };
 		00A543D91D9B5CD90082D0B4 /* TDScene.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TDScene.entitlements; sourceTree = "<group>"; };
+		00D4116B1DC340C10026B22E /* TDDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDDBManager.h; sourceTree = "<group>"; };
+		00D4116C1DC340C10026B22E /* TDDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDDBManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2785,6 +2791,8 @@
 			children = (
 				005168FE1D9CB515009C2C8E /* AlbumModel.h */,
 				005168FF1D9CB515009C2C8E /* AlbumModel.m */,
+				005DE4081DB9B365001A1730 /* LoginUser.h */,
+				005DE4091DB9B365001A1730 /* LoginUser.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -2797,6 +2805,8 @@
 				0097D8CC1D99149E0047DB2B /* TDNotification.m */,
 				007E32501DA9E3D800D05B84 /* TDDataBaseTool.h */,
 				007E32511DA9E3D800D05B84 /* TDDataBaseTool.m */,
+				00D4116B1DC340C10026B22E /* TDDBManager.h */,
+				00D4116C1DC340C10026B22E /* TDDBManager.m */,
 			);
 			name = Tools;
 			sourceTree = "<group>";
@@ -3756,7 +3766,9 @@
 				007E324C1DA9E39700D05B84 /* FMDatabasePool.m in Sources */,
 				008E7F4F1DAA4BFA00615FED /* TDTransitionVerticalPush.m in Sources */,
 				007E324D1DA9E39700D05B84 /* FMDatabaseQueue.m in Sources */,
+				00D4116D1DC340C10026B22E /* TDDBManager.m in Sources */,
 				001F01711D6EE3290049F921 /* PhotoController.m in Sources */,
+				005DE40A1DB9B365001A1730 /* LoginUser.m in Sources */,
 				005169001D9CB515009C2C8E /* AlbumModel.m in Sources */,
 				007E322D1DA8A1AE00D05B84 /* IDViewController.m in Sources */,
 				007E32521DA9E3D800D05B84 /* TDDataBaseTool.m in Sources */,
