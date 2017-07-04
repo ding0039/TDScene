@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="w9X-GG-v3r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="w9X-GG-v3r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="SL3-zL-ZLl">
             <objects>
-                <viewController id="w9X-GG-v3r" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InitViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="w9X-GG-v3r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1DP-S9-UeI"/>
                         <viewControllerLayoutGuide type="bottom" id="Dfq-Hf-Cdy"/>
@@ -16,20 +19,30 @@
                     <view key="view" contentMode="scaleToFill" id="C7r-Sj-fzu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhW-tU-YY9">
+                                <rect key="frame" x="133" y="311" width="108" height="44"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="0qI-F0-d6L" kind="modal" modalTransitionStyle="crossDissolve" id="mJk-bF-xgz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.53883170790000001" green="0.75982204129999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="zhW-tU-YY9" firstAttribute="centerX" secondItem="C7r-Sj-fzu" secondAttribute="centerX" id="QD8-dI-Mol"/>
+                            <constraint firstItem="zhW-tU-YY9" firstAttribute="centerY" secondItem="C7r-Sj-fzu" secondAttribute="centerY" id="ty9-vM-EfD"/>
+                        </constraints>
                     </view>
-                    <connections>
-                        <segue destination="0qI-F0-d6L" kind="show" id="KEj-kW-lIx"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OWj-TY-qNp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2484" y="1986"/>
+            <point key="canvasLocation" x="-2959.1999999999998" y="1985.7571214392806"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="YrC-1w-B9u">
             <objects>
-                <tabBarController useStoryboardIdentifierAsRestorationIdentifier="YES" id="0qI-F0-d6L" customClass="TDTabBarController" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="TabBarController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="0qI-F0-d6L" customClass="TDTabBarController" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="eDs-OW-dBT">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -54,7 +67,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M8u-2u-Tl5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-818" y="1858"/>
+            <point key="canvasLocation" x="-817" y="1705"/>
         </scene>
         <!--Photo-->
         <scene sceneID="p6Y-Ep-XD1">
@@ -64,7 +77,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MON-9K-qED" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-819" y="1996"/>
+            <point key="canvasLocation" x="-819" y="1867"/>
         </scene>
         <!--Friend-->
         <scene sceneID="Mcv-0y-Oou">
@@ -74,7 +87,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K6P-b5-2M9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-818" y="2242"/>
+            <point key="canvasLocation" x="-817" y="2052"/>
         </scene>
         <!--More-->
         <scene sceneID="un5-na-3OI">
@@ -84,7 +97,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="djB-gH-671" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-818" y="2377"/>
+            <point key="canvasLocation" x="-823" y="2199"/>
         </scene>
     </scenes>
     <resources>

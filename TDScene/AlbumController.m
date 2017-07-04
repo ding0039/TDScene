@@ -10,16 +10,31 @@
 #import "TDNotificationController.h"
 
 @implementation AlbumController
+
+float cellOfRow = 4;   //view一行的cell数量
+float cellWidth;    //cell的宽度
+float const cellSpace = 10;    //cell之间的间隙
+NSString *cellID = @"AlbumCell";
 -(void)viewDidLoad{
     [super viewDidLoad];
 
     self.collectionView.dataSource = self;
     self.collectionView.delegate = self;
     self.navigationController.delegate = self;
-//    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
-//    layout.minimumLineSpacing = 5;
-//    layout.minimumInteritemSpacing = 5;
-//    self.collectionView.collectionViewLayout = layout;
+
+    [self.collectionView registerNib:[UINib nibWithNibName:@"TDAlbumCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:cellID];
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+    layout.minimumLineSpacing = 5;
+    layout.minimumInteritemSpacing = 5;
+    self.collectionView.collectionViewLayout = layout;
+    
+    cellWidth = (Main_Screen_Width - (cellOfRow + 1) * cellSpace) / cellOfRow;
+
+
+
+    //添加手势缩放cell大小
+    UIPinchGestureRecognizer *gesture = [[UIPinchGestureRecognizer alloc]initWithTarget:self action:@selector(pinchCellSize:)];
+    [self.collectionView addGestureRecognizer:gesture];
 
 }
 
@@ -55,18 +70,40 @@
 }
 
 - (IBAction)notify:(id)sender {
-    UIViewController *rootViewController = self.navigationController.view.window.rootViewController;
+    
     TDNotificationController *recommandVC = [[TDNotificationController alloc]init];     //半透明的那个viewcontroller
 
-    [rootViewController presentViewController:recommandVC animated:NO completion:nil];
+    [self.tabBarController presentViewController:recommandVC animated:NO completion:nil];
 }
 
 - (IBAction)menu:(id)sender {
 
+
 }
 
+
+-(void)pinchCellSize:(UIPinchGestureRecognizer *)gesture{
+    if (gesture.state == UIGestureRecognizerStateEnded) {
+        if (gesture.scale < 1 && cellOfRow < 7) {    //缩小
+            cellOfRow ++;
+        }else if (gesture.scale > 1 && cellOfRow > 2){
+            cellOfRow --;
+        }
+
+        cellWidth = (Main_Screen_Width - (cellOfRow + 1) * cellSpace) / cellOfRow;
+
+        UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
+        flowLayout.itemSize = CGSizeMake(cellWidth, cellWidth* 1.2);
+
+        [self.collectionView setCollectionViewLayout:flowLayout animated:YES completion:^(BOOL finished) {
+
+        }];
+    }
+}
+
+
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 2;
+    return 15;
 }
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
     return 1;
@@ -75,19 +112,21 @@
 
     TDAlbumCollectionViewCell *cell;
     cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"AlbumCell" forIndexPath:indexPath];
+//    for (UIView *subview in cell.contentView.subviews) {
+//
+//    }
+
     if (!cell) {
         
     }
-
+    cell.name.text = [NSString stringWithFormat:@"%u",arc4random()];
     return cell;
 }
 
-//定义每个UICollectionView 的大小
+//定义每个UICollectionCellView 的大小
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-
-    float cellWidth = (V_Width(self.collectionView) -  60)/ 3;
-    return CGSizeMake(cellWidth,cellWidth + 40);
+    return CGSizeMake(cellWidth,cellWidth * 1.2 );
 }
 //定义每个UICollectionView的间距
 -(UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
@@ -95,9 +134,6 @@
     return UIEdgeInsetsMake(10, 0, 0, 0);
 }
 
--(UICollectionViewTransitionLayout *)collectionView:(UICollectionView *)collectionView transitionLayoutForOldLayout:(UICollectionViewLayout *)fromLayout newLayout:(UICollectionViewLayout *)toLayout{
-    UICollectionViewTransitionLayout *layout = [[UICollectionViewTransitionLayout alloc]initWithCurrentLayout:fromLayout nextLayout:toLayout];
 
-    return layout;
-}
+
 @end

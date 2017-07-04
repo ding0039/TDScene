@@ -5,8 +5,6 @@
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -32,44 +30,7 @@
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AlbumCell" id="Fm0-cB-tXK" customClass="TDAlbumCollectionViewCell">
-                                        <rect key="frame" x="0.0" y="0.0" width="153" height="192"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="153" height="192"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu_copy" translatesAutoresizingMaskIntoConstraints="NO" id="Fsv-Aa-KIM">
-                                                    <rect key="frame" x="8" y="8" width="137" height="137"/>
-                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" secondItem="Fsv-Aa-KIM" secondAttribute="height" multiplier="1:1" id="8t0-un-kgH"/>
-                                                    </constraints>
-                                                </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqv-YS-UbU">
-                                                    <rect key="frame" x="8" y="149" width="137" height="31"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                        </view>
-                                        <constraints>
-                                            <constraint firstAttribute="trailingMargin" secondItem="nqv-YS-UbU" secondAttribute="trailing" id="0tE-oV-Cn2"/>
-                                            <constraint firstAttribute="trailingMargin" secondItem="Fsv-Aa-KIM" secondAttribute="trailing" id="E1Y-3F-S8K"/>
-                                            <constraint firstAttribute="bottomMargin" secondItem="nqv-YS-UbU" secondAttribute="bottom" constant="4" id="IA1-KT-Oqa"/>
-                                            <constraint firstItem="nqv-YS-UbU" firstAttribute="top" secondItem="Fsv-Aa-KIM" secondAttribute="bottom" constant="4" id="RLE-jk-6QY"/>
-                                            <constraint firstItem="Fsv-Aa-KIM" firstAttribute="leading" secondItem="Fm0-cB-tXK" secondAttribute="leadingMargin" id="Vew-YU-G6a"/>
-                                            <constraint firstItem="nqv-YS-UbU" firstAttribute="leading" secondItem="Fm0-cB-tXK" secondAttribute="leadingMargin" id="Wbo-4b-mrL"/>
-                                            <constraint firstItem="Fsv-Aa-KIM" firstAttribute="top" secondItem="Fm0-cB-tXK" secondAttribute="topMargin" id="zGn-gr-zrP"/>
-                                        </constraints>
-                                        <connections>
-                                            <outlet property="cover" destination="Fsv-Aa-KIM" id="TBw-EE-8GG"/>
-                                            <outlet property="name" destination="nqv-YS-UbU" id="OA8-0X-qDv"/>
-                                        </connections>
-                                    </collectionViewCell>
-                                </cells>
+                                <cells/>
                             </collectionView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -131,7 +92,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="menu_copy" width="29" height="29"/>
         <image name="nav_add_album" width="21" height="21"/>
         <image name="nav_menu" width="22" height="22"/>
         <image name="nav_notification" width="21" height="21"/>

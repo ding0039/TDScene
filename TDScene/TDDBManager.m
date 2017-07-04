@@ -43,19 +43,24 @@ static TDDBManager *manager;
         [_db open];
 
         // 初始化数据表
-        NSString *tableAlbum = @"CREATE TABLE 'album' ('id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,'sn' INTEGER,'album_name' VARCHAR(255),'album_volum' DECIMAL(255,2),'album_cover' VARCHAR(255)) ";
+        NSString *albumTable = @"CREATE TABLE 'album' ('id' INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL ,'sn' INTEGER,'album_name' VARCHAR(255),'album_volum' DECIMAL(255,2),'album_cover' VARCHAR(255)) ";
 
 
-        NSString *tablePhoto = @"CREATE TABLE 'person' ('id' INTEGER PRIMARY KEY AUTOINCREMENT  NOT NULL ,'photo_id' VARCHAR(255),'photo_name' VARCHAR(255),'person_age' VARCHAR(255),'person_number'VARCHAR(255)) ";
+        NSString *photoTable = @"CREATE TABLE 'photo' ('id' INTEGER PRIMARY KEY AUTOINCREMENT  NOT NULL ,'photo_id' VARCHAR(255),'photo_name' VARCHAR(255),'person_age' VARCHAR(255),'person_number'VARCHAR(255)) ";
+
+        NSString *userTable = @"CREATE TABLE 'user' ('id' INTEGER PRIMARY KEY AUTOINCREMENT  NOT NULL ,'user_id' VARCHAR(255),'user_name' VARCHAR(255),'user_age' VARCHAR(255),'user_sex'VARCHAR(255)) ";
 
 
-        if ([_db executeUpdate:tableAlbum]) {
+
+        if ([_db executeUpdate:albumTable]) {
             NSLog(@"创建album表成功!");
         }
-        if ([_db executeUpdate:tablePhoto]) {
+        if ([_db executeUpdate:photoTable]) {
             NSLog(@"创建photo表成功!");
         }
-
+        if ([_db executeUpdate:userTable]) {
+            NSLog(@"创建user表成功!");
+        }
         
         [_db close];
 

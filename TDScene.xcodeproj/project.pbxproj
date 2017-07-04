@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		001EE5F01DD5B0F300958304 /* TDAlbumCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 001EE5EF1DD5B0F300958304 /* TDAlbumCollectionViewCell.m */; };
 		001F01311D6EE0E90049F921 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 001F01301D6EE0E90049F921 /* main.m */; };
 		001F01341D6EE0E90049F921 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 001F01331D6EE0E90049F921 /* AppDelegate.m */; };
 		001F01371D6EE0E90049F921 /* ImitatedScene.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 001F01351D6EE0E90049F921 /* ImitatedScene.xcdatamodeld */; };
@@ -810,6 +811,7 @@
 		001F0AC81D6EE8B00049F921 /* photobook_dialog_sample_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001F0AC51D6EE8B00049F921 /* photobook_dialog_sample_image.jpg */; };
 		001F0AC91D6EE8B00049F921 /* photobook_dialog_sample_image@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001F0AC61D6EE8B00049F921 /* photobook_dialog_sample_image@2x.jpg */; };
 		001F0ACA1D6EE8B00049F921 /* photobook_dialog_sample_image@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 001F0AC71D6EE8B00049F921 /* photobook_dialog_sample_image@3x.jpg */; };
+		003B16F21DDAEC9D0050561B /* TDAlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 003B16F11DDAEC9D0050561B /* TDAlbumCollectionViewCell.xib */; };
 		003B9E3F1DACDAF30085056E /* TDNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 003B9E3E1DACDAF30085056E /* TDNavigationControllerDelegate.m */; };
 		005169001D9CB515009C2C8E /* AlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 005168FF1D9CB515009C2C8E /* AlbumModel.m */; };
 		0053F0701D93C9D100BD8367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0053F06F1D93C9D100BD8367 /* Assets.xcassets */; };
@@ -855,6 +857,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001EE5EF1DD5B0F300958304 /* TDAlbumCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDAlbumCollectionViewCell.m; sourceTree = "<group>"; };
+		001EE5F11DD5B10700958304 /* TDAlbumCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDAlbumCollectionViewCell.h; sourceTree = "<group>"; };
 		001F012C1D6EE0E90049F921 /* TDScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TDScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		001F01301D6EE0E90049F921 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		001F01321D6EE0E90049F921 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -1673,6 +1677,7 @@
 		001F0ACD1D6EE8DF0049F921 /* OrganizerHint.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = OrganizerHint.mp4; sourceTree = "<group>"; };
 		001F0ACE1D6EE8F30049F921 /* DaySelectionHint.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DaySelectionHint.mp4; sourceTree = "<group>"; };
 		001F0ACF1D6EE8F30049F921 /* DragDropHint.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DragDropHint.mp4; sourceTree = "<group>"; };
+		003B16F11DDAEC9D0050561B /* TDAlbumCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TDAlbumCollectionViewCell.xib; sourceTree = "<group>"; };
 		003B9E3D1DACDAF30085056E /* TDNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDNavigationControllerDelegate.h; sourceTree = "<group>"; };
 		003B9E3E1DACDAF30085056E /* TDNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDNavigationControllerDelegate.m; sourceTree = "<group>"; };
 		005168FE1D9CB515009C2C8E /* AlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumModel.h; sourceTree = "<group>"; };
@@ -1772,7 +1777,7 @@
 		001F012E1D6EE0E90049F921 /* TDScene */ = {
 			isa = PBXGroup;
 			children = (
-				00A543F11D9BC7540082D0B4 /* Framework */,
+				00A543F11D9BC7540082D0B4 /* Vendor */,
 				00A543D91D9B5CD90082D0B4 /* TDScene.entitlements */,
 				0097D8C91D9910830047DB2B /* Tools */,
 				0097D8C81D9910790047DB2B /* Model */,
@@ -2773,7 +2778,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		008E7F531DAB6BF200615FED /* VC_AnimatedTransitioning */ = {
+		008E7F531DAB6BF200615FED /* TDAnimatedTransitioning */ = {
 			isa = PBXGroup;
 			children = (
 				008E7F4D1DAA4BFA00615FED /* TDTransitionVerticalPush.h */,
@@ -2783,12 +2788,15 @@
 				003B9E3D1DACDAF30085056E /* TDNavigationControllerDelegate.h */,
 				003B9E3E1DACDAF30085056E /* TDNavigationControllerDelegate.m */,
 			);
-			name = VC_AnimatedTransitioning;
+			name = TDAnimatedTransitioning;
 			sourceTree = "<group>";
 		};
 		0097D8C81D9910790047DB2B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				001EE5F11DD5B10700958304 /* TDAlbumCollectionViewCell.h */,
+				001EE5EF1DD5B0F300958304 /* TDAlbumCollectionViewCell.m */,
+				003B16F11DDAEC9D0050561B /* TDAlbumCollectionViewCell.xib */,
 				005168FE1D9CB515009C2C8E /* AlbumModel.h */,
 				005168FF1D9CB515009C2C8E /* AlbumModel.m */,
 				005DE4081DB9B365001A1730 /* LoginUser.h */,
@@ -2800,7 +2808,7 @@
 		0097D8C91D9910830047DB2B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				008E7F531DAB6BF200615FED /* VC_AnimatedTransitioning */,
+				008E7F531DAB6BF200615FED /* TDAnimatedTransitioning */,
 				0097D8CB1D99149E0047DB2B /* TDNotification.h */,
 				0097D8CC1D99149E0047DB2B /* TDNotification.m */,
 				007E32501DA9E3D800D05B84 /* TDDataBaseTool.h */,
@@ -2811,11 +2819,12 @@
 			name = Tools;
 			sourceTree = "<group>";
 		};
-		00A543F11D9BC7540082D0B4 /* Framework */ = {
+		00A543F11D9BC7540082D0B4 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
 				007E323D1DA9E39700D05B84 /* fmdb */,
 			);
+			name = Vendor;
 			path = Framework;
 			sourceTree = "<group>";
 		};
@@ -3627,6 +3636,7 @@
 				001F0AA71D6EE85F0049F921 /* PhotosUploadingProgress.strings in Resources */,
 				001F03F51D6EE8350049F921 /* MainPhotoListSettingNoDevice.strings in Resources */,
 				001F03C51D6EE8350049F921 /* AlbumList.strings in Resources */,
+				003B16F21DDAEC9D0050561B /* TDAlbumCollectionViewCell.xib in Resources */,
 				001F09FC1D6EE85F0049F921 /* AlbumShareWizard.strings in Resources */,
 				001F06481D6EE8510049F921 /* PhotoListCalendarStrings.strings in Resources */,
 				001F0AB31D6EE85F0049F921 /* SenderCommonStrings.strings in Resources */,
@@ -3769,6 +3779,7 @@
 				00D4116D1DC340C10026B22E /* TDDBManager.m in Sources */,
 				001F01711D6EE3290049F921 /* PhotoController.m in Sources */,
 				005DE40A1DB9B365001A1730 /* LoginUser.m in Sources */,
+				001EE5F01DD5B0F300958304 /* TDAlbumCollectionViewCell.m in Sources */,
 				005169001D9CB515009C2C8E /* AlbumModel.m in Sources */,
 				007E322D1DA8A1AE00D05B84 /* IDViewController.m in Sources */,
 				007E32521DA9E3D800D05B84 /* TDDataBaseTool.m in Sources */,

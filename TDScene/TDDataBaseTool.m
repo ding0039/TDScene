@@ -48,5 +48,4 @@ static TDDataBaseTool *dbTool;
     return YES;
 }
 
-
 @end

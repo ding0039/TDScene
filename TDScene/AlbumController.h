@@ -10,7 +10,9 @@
 #import "TDAlbumCollectionViewCell.h"
 
 @interface AlbumController : UIViewController <UICollectionViewDelegate,UICollectionViewDataSource,UINavigationControllerDelegate>
-
+{
+    
+}
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end

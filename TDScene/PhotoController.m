@@ -28,10 +28,9 @@
 }
 
 - (IBAction)notify:(id)sender {
-    UIViewController *rootViewController = self.navigationController.view.window.rootViewController;
     TDNotificationController *recommandVC = [[TDNotificationController alloc]init];     //半透明的那个viercontroller
 
-    [rootViewController presentViewController:recommandVC animated:NO completion:nil];
+    [self.tabBarController presentViewController:recommandVC animated:NO completion:nil];
 }
 
 - (IBAction)menu:(id)sender {

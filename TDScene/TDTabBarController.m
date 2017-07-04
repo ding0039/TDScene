@@ -22,7 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //指定UITabbarController的初始显示界面
-    self.selectedIndex = 3;
+    self.selectedIndex = 0;
 
 }
 
